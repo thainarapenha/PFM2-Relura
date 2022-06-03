@@ -1,0 +1,177 @@
+body {
+  padding-top: 75px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+              0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+#home-quote {
+  background: url('../img/bg-quote.jpg') center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4{
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
+
+.img {
+ width: 100%;
+ height: 100%;
+}
+
+.btn btn-outline-primary ml-md-2 {
+  background: #591DCC
+}
+
+.color {
+ color:  #591DCC
+}
+
+.text-primary {
+  color: #591DCC !important;
+}
+
+ 
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+h3 {
+  color: #591DCC !important;
+} 
+.lead a {
+  color: #591DCC !important;
+}
+
+.btn-outline-primary {
+  color: #591DCC;
+
+  border-color: #591DCC;
+}
+.btn {
+  transition: 0.5s;
+  
+}
+.btn:hover {
+  background-color: #591DCC;
+  color: white;
+  border-color: #591DCC;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #591DCC;
+  border-color: #591DCC;
+}
+
+
+text-white {
+  color: #fdfdfd !important;
+}
+
+#duvidas {
+  color: #a200ff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.text-secondary {
+  colo: #ffffff !important;
+}
+
+.btn-outline-secondary {
+  color: #591DCC;
+  border-color: #591DCC;
+}
+
+.bg-primary {
+  background-color: #591dcc !important;
+}
+
+#pagina {
+  color: #591dcc !important;
+}
+
+a {
+  color: #fff;
+}
+.text-secondary {
+  color: #fafafa !important;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png { 
+  position: absolute;
+  left: 50%;
+  transform: transition(50%);
+}
+.central {
+  display: flex;
+  flex-direction: column;
+  
+}
+  
+h2{
+  font-style: Semi Bold;
+  font-size: 64px;
+  line-height: 77px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+ 
+}
+
+p{
+
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+
+}
+
+.roxo {
+  color: #591dcc !important;
+}
+
+/* From uiverse.io by @bhaveshxrawat */
+
+.carde{
+  display: inline-block;
+}
+
+.carde img {
+  margin-right: 150px;
+}
+.card {
+  width: 291px;
+  height: 155px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px;
+}
