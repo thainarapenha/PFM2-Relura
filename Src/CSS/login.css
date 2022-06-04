@@ -3,13 +3,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid red;
 }
-/* .cabecalho{
+.cabecalho{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    border-bottom: 1px solid black;
 }
-.cabecalho nav{padding: .5%; margin-right: 5%;} */
+.cabecalho nav{padding: .5%; margin-right: 5%;}
 
 #btnLogin-menu{width: 150px; background: #591DCC;}
 .form-login{width: 430px; position: absolute;}

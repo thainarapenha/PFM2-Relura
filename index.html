@@ -1,181 +1,280 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Importando CSS -->
-    <link rel="stylesheet" href="./src/CSS/bootstrap.css">
-    <link rel="stylesheet" href="./src/CSS/style.css">
-    <link rel="stylesheet" href="src/CSS/login.css">
-    <link rel="stylesheet" type="text/css" href="./src/CSS/nomedoarquivoCSS" />
-    <!-- Importando Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Importando JS -->
-    <script defer type="text/javascript" src="./src/JavaScript/nomedoarquivoJavaScript"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Importando CSS -->
+        <link rel="stylesheet" href="./src/CSS/style.css">
+        <link rel="stylesheet" href="src/CSS/login.css">
+        <link rel="stylesheet" href="src/CSS/servico.css">
+        <link rel="stylesheet" type="text/css" href="./src/CSS/nomedoarquivoCSS" />
+        <!-- Importando Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Importando JS -->
+        <script defer type="text/javascript" src="./src/JavaScript/nomedoarquivoJavaScript"></script>
 
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <title>Nome do Produto</title>
-</head>
+        <link rel="shortcut icon" href="#" type="image/x-icon" />
+        <title>Nome do Produto</title>
+    </head>
 
-<body>
-    <!--Criando o navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
-        <a href="#" class="navbar-brand">
-            <img src="" alt="">
-        </a>
+    <body>
+        <!--Criando o navbar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
+            <a href="#" class="navbar-brand"><img src="" alt=""></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Planos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Cadastre-se</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-primary ml-md-2" href="">Entrar</a></li>
+                </ul>
+            </div>
+        </nav>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Contato</a>
-                </li>
+        <!--Fechando o navbar-->
+        <!-- <header class="cabecalho">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Planos</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Cadatre-se</a>
+                <a class="flex-sm-fill text-sm-center nav-link active" href="#" id="btnLogin-menu">Entrar</a>
+            </nav>
+        </header> -->
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Planos</a>
-                </li>
+        <!--Primeira parte-->
+        <!-- <main class="mainHome">
+            <section class="container-fluid">
+                <div class="banner">
+                    <img class="png" src="./Src/img/circulos-banner.png" width="506px" height="506px" alt="">
+                    <div class="central">
+                        <h2 class="display-4 texte-primary">Seu parceiro de <em class="roxo">confiança</em> para construir seu <em class="roxo">plano de carreira</em></h2>
+                        <p>Facilitamos sua entrada no mercado de trabalho com treinamentos personalizados</p>
+                    </div>
+                </div>
+            </section>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Cadastre-se</a>
-                </li>
+            <section class="py-5 bg-light text-center">
+                <div class="container">
+                    <div class="my-5">
+                        <span class="h6 d-block"></span>
+                        <h2 class="display-4 texte-primary"> <strong class="color">QUESTIONAMOS</strong> O JEITO TRADICIONAL DE ENSINO</h2>
+                        <p class="lead">A nossa metodologia é voltada para solucionarmos problemas encontrados durante sua jornada tech.</p>
 
-                <li class="nav-item">
-                    <a class="btn btn-outline-primary ml-md-2" href="">Entrar</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--Fechando o navbar-->
+                        <div class="carde">
+                            <div class="card">
+                                <img src="" width="24px" height="24px" alt="img">
+                                <h1>Titulo</h1>
+                                <p>paragrafo</p>
+                            </div>
+                        </div>
+                        <div class="carde">
+                            <div class="card">
+                                <img src="" width="24px" height="24px" alt="img">
+                                <h1>Titulo</h1>
+                                <p>paragrafo</p>
+                            </div>
+                        </div>
+                        <div class="carde">
+                            <div class="card">
+                                <img src="" width="24px" height="24px" alt="img">
+                                <h1>Titulo</h1>
+                                <p>paragrafo</p>
+                            </div>
+                        </div>
 
+                        <img src="./Src/img/Captura de tela 2022-05-30 213428.jpg" alt="">
+            </section>
+        </main> -->
 
-    <!--Primeira parte-->
-    <main>
-        <section class="container-fluid">
-            <div class="banner">
-                <img class="png" src="./Src/img/circulos-banner (1).png" width="506px" height="506px" alt="">
-                <div class="central">
-                    <h2 class="display-4 texte-primary">Seu parceiro de <em class="roxo">confiança</em> para construir seu <em class="roxo">plano de carreira</em></h2>
-                    <p>Facilitamos sua entrada no mercado de trabalho com treinamentos personalizados</p>
+        <!-- area de login -->
+        <!-- <main class="mainLogin">
+            <section class="section-login">
+                <img src="src/img/circulos-banner.png">
+
+                <form class="form-login">
+                    <div class="form-group">
+                    <label>Login</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu E-mail">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
+                    </div>
+                    
+                    <div class="btns">
+                        <button type="submit" class="btn btn-primary" id="btnEntrar">Continuar</button>
+                        
+                        <p id="texo-entreBTN">Ou entre com sua rede social</p>
+                        
+                        <button type="submit" class="btn btn-primary" id="btnFacebook">Entrar com Facebook</button>
+                        <button type="submit" class="btn btn-primary" id="btnGoogle">Entrar com Google</button>
+                        <button type="submit" class="btn btn-primary" id="btnEsqueceu-Senha">Esqueci minha senha</button>
+                    </div>
+                </form>
+            </section>
+        </main> -->
+
+         <main class="mainServico">
+            <h1>Conheça nossos cursos</h1>
+
+            <section class="cursos">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body" >
+                                <h5 class="card-title">JavaScript</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gestão de tempo</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Comunicação não violenta</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Git e GitHub</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML e CSS</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Full Stak Web</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="planos">
+                <h1>Conheça nossos planos</h1>
+
+                <div class="cards container">
+                    <div class="cards-item">
+                        <h3 class="font-1-xl cor-p1">Básico</h3>
+
+                        <ul class="font-2-m cor-0">
+                          <li>Cinco trocas por ano</li>
+                          <li>Assistência especial</li>
+                          <li>Suporte 24h</li>
+                          <li>Cobertura nacional</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Acesso ao Clube Bikcraft</li>
+                        </ul>
+                        
+                        <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
+                        <div class="botao">
+                            <a id="btn1" href="./orcamento.html">Inscreva-se</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cards-item">
+                        <h3 class="font-1-xl cor-p1">Completo</h3>
+                        
+                        <ul class="font-2-m cor-0">
+                          <li>Cinco trocas por ano</li>
+                          <li>Assistência especial</li>
+                          <li>Suporte 24h</li>
+                          <li>Cobertura nacional</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Desconto em parceiros</li>
+                          <li>Acesso ao Clube Bikcraft</li>
+                        </ul>
+                        <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
+                        <div class="botao">
+                            <a id="btn2" href="./orcamento.html">Inscreva-se</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        
+
+        <footer class="bg-dark text-white">
+            <div class="container py-4">
+                <div class="row"> <img src="." width="150px" height="100px" alt="">
+                    <div class="col-md-3 col-6">
+
+                        <h4 id="pagina" class="h6">PÁGINAS</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Planos</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Inscreva-se</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 id="pagina" class="h6"></h4>
+                        <ul class="list-unstyled text-secondary">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4 id="pagina" class="h6">REDES SOCIAIS</h4>
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
+                            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
+                            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Youtube</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!--Fechamento-->
 
-        <section class="py-5 bg-light text-center">
-
-
-            <div class="container">
-
-                <div class="my-5">
-                    <span class="h6 d-block"></span>
-                    <h2 class="display-4 texte-primary"> <strong class="color">QUESTIONAMOS</strong> O JEITO TRADICIONAL DE ENSINO</h2>
-                    <p class="lead">A nossa metodologia é voltada para solucionarmos problemas encontrados durante sua jornada tech.</p>
-
-                    <!--Início dos cards-->
-                    <div class="carde">
-                        <div class="card">
-                            <img src="" width="24px" height="24px" alt="img">
-                            <h1>Titulo</h1>
-                            <p>paragrafo</p>
-                        </div>
-                    </div>
-                    <div class="carde">
-                        <div class="card">
-                            <img src="" width="24px" height="24px" alt="img">
-                            <h1>Titulo</h1>
-                            <p>paragrafo</p>
-                        </div>
-                    </div>
-                    <div class="carde">
-                        <div class="card">
-                            <img src="" width="24px" height="24px" alt="img">
-                            <h1>Titulo</h1>
-                            <p>paragrafo</p>
-                        </div>
-                    </div>
-                    <!--Fechamento dos cards-->
-
-
-
-                    <img src="./Src/img/Captura de tela 2022-05-30 213428.jpg" alt="">
-
-        </section>
-    </main>
-
-    <!-- area de login -->
-    <main class="mainLogin">
-        <section class="section-login">
-            <img src="src/img/circulos-banner.png">
-
-            <form class="form-login">
-                <div class="form-group">
-                  <label>Login</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu E-mail">
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
-                </div>
-                
-                <div class="btns">
-                    <button type="submit" class="btn btn-primary" id="btnEntrar">Continuar</button>
-                    
-                    <p id="texo-entreBTN">Ou entre com sua rede social</p>
-                    
-                    <button type="submit" class="btn btn-primary" id="btnFacebook">Entrar com Facebook</button>
-                    <button type="submit" class="btn btn-primary" id="btnGoogle">Entrar com Google</button>
-                    <button type="submit" class="btn btn-primary" id="btnEsqueceu-Senha">Esqueci minha senha</button>
-                </div>
-            </form>
-        </section> <!-- FIM DA SECTION LOGIN -->
-    </main> <!-- FIM DA SECTION LOGIN -->
-
-    <footer class="bg-dark text-white">
-
-        <div class="container py-4">
-            <div class="row"> <img src="." width="150px" height="100px" alt="">
-
-                <div class="col-md-3 col-6">
-
-                    <h4 id="pagina" class="h6">PÁGINAS</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Planos</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Inscreva-se</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4">
-                    <h4 id="pagina" class="h6"></h4>
-                    <ul class="list-unstyled text-secondary">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <h4 id="pagina" class="h6">REDES SOCIAIS</h4>
-                    <ul class="list-unstyled">
-                        <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
-                        <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
-                        <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Youtube</a></li>
-                    </ul>
-                </div>
+            <div class="bg-primary text-center py-3">
+                <p class="mb-0">Squad 7 © 2022. Alguns direitos reservados.</p>
             </div>
-        </div>
-        <div class="bg-primary text-center py-3">
-            <p class="mb-0">Squad 7 © 2022. Alguns direitos reservados.</p>
-        </div>
+        </footer>
 
-    </footer>
-
-
-</body>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
