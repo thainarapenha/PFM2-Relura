@@ -6,9 +6,17 @@
     border: 1px solid red;
 }
 
+.col{padding: 5px 0;}
+.col:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    cursor: pointer;
+}
+
 .planos, .planos h1{display: block;}
 .planos h1, .cursos h1, .mainServico h1{text-align: center;}
-
+.planos strong, .mainServico strong{color: #591DCC;}
 .container {
     box-sizing: border-box;
     max-width: 1200px;
@@ -24,23 +32,24 @@
     padding: 60px;
     align-items: center;
 }
-.cards-item {
+.cards-item{
     display: flex;
     flex-direction: column;
     color: white;
     padding: 32px 32px 32px 60px;
     border-radius: 10px;
     background: black;
+    border: 1px solid red;
 }
 
-.botao{display: flex;flex-direction: column;}
+.botao{display: flex; flex-direction: column; padding: 10px 0;}
 #btn1, #btn2{
     display: inline-block;
     max-width: max-content;
     color: white;
     text-transform: uppercase;
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
-    padding: 16px 32px;
+    padding: 10px 30px;
     border-radius: 10px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
     border: 2px solid #591DCC;
