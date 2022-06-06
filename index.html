@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/bootstrap.css" />
+    <link rel="stylesheet" href="/src/nav.css" />
+    <link rel="stylesheet" href="/src/footer.css" />
     <link rel="stylesheet" href="/src/cadastro.css" />
+    <link rel="stylesheet" href="/src/card.css" />
     <script src="/src/scrip.js" defer></script>
     <title>Cadastro</title>
   </head>
@@ -65,20 +68,109 @@
     <!--Fechando o navbar-->
 
     <main>
+      <form>
+        <div class="row g-3">
+          <div class="form-name">
+            <div class="col">
+              Primeiro nome
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Primeiro nome*"
+                aria-label="Primeiro nome*"
+              />
+            </div>
+          </div>
+          <div class="col">
+            sobrenome
+            <input
+              type="text"
+              class="form-control"
+              placeholder="sobrenome*"
+              aria-label="sobrenome*"
+            />
+          </div>
+        </div>
 
+        <br />
+        <label>Digite seu CEP</label>
+        <div class="row">
+          <input
+            type="text"
+            class="form-cep"
+            id="inputcep"
+            placeholder="00000-000*"
+            aria-label="00000-000*"
+          />
+          <button class="bnt">Buscar</button>
+          <button class="bntCEP">Não sei o meu CEP</button>
+        </div>
+        <br />
+        
+        <div class="cep d-flex">
+          Rua
+          <div class=" ">
+            <input
+              type="text"
+              class="rua-cep col"
+              placeholder=""
+              aria-label=" Rua*"
+            />
+          </div>
 
+          <div class="col">
+            N
 
+            <input
+              type="text"
+              class="N-cep col"
+              placeholder=""
+              aria-label="sobrenome*"
+            />
+          </div>
+        </div>
+<br>
 
-
-
-
-
-
-
-
-
-
-      
+        <div class="d-flex ">
+          Bairro
+          <input class="form-control"  type="text">
+          Cidade
+          <input class="form-control" type="text">
+          Estado
+          <input class="form-control" type="text">
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <br>
+        
+        
+        
+        <div class=" d-flex">
+          Digite o seu email
+          <input class="form-control" type="text">
+          Senha
+          <input class="form-control" type="text">
+          Confirme sua senha
+          <input class="form-control" type="text">
+        </div>
+        <button>Finalizar cadastro</button>
+      </form>
     </main>
 
     <footer class="bg-dark text-white">
