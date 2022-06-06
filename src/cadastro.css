@@ -1,99 +1,91 @@
-main{
-  background-color: #FFFFFF;
-  color:#591DCC;
-
-
+body {
+  width: 100%;
+  height: 100vh;
 }
-form{
+main {
+  background-color: #ffffff;
+  color: #591dcc;
+}
+p {
+  color: black;
+}
+form {
   display: flex;
   flex-direction: column;
   width: 1706px;
+  justify-content: center;
+  
   align-items: center;
-}
-
-
-
-
-.form-name{
-  margin-right: 30px;
   
-}
-
-
-
-
-
-.form-control{
-
-  height: 36px;
-  width: 250px;
-  border-radius: 7px;
  
-  
 }
-.form-cep{
 
+.form-name {
+  margin-right: 30px;
+}
+
+.form-control {
   height: 36px;
   width: 250px;
   border-radius: 7px;
-  
-  
 }
-.cep{
+.form-cep {
+  height: 36px;
+  width: 250px;
+  border-radius: 7px;
+}
+.cep {
   height: 36px;
   display: flex;
   border-radius: 7px;
 }
 
-.bnt{
-height: 36px;
+.bnt {
+  height: 36px;
   width: 60px;
   border-radius: 7px;
   color: #ffffff;
-  background-color: #591DCC;
-
+  background-color: #591dcc;
 }
 
-
-.bntCEP{
+.bntCEP {
   background-color: rgb(255, 255, 255);
   height: 36px;
   width: 160px;
   border-radius: 7px;
-  color: #591DCC;
-  border-color: #591DCC;
-
+  color: #591dcc;
+  border-color: #591dcc;
 }
-.col{
-
+.col {
   height: 36px;
   width: 250px;
   border-radius: 7px;
-  
-
 }
 
-.rua-cep{
+.rua-cep {
   height: 35px;
   width: 250px;
 }
 
-
-
-
-.N-cep{
+.N-cep {
   width: 160px;
-  
-  
 }
 
-.senha{
+.senha {
   display: flex;
 }
 
-
-
-
-
-
-
+.bntcadastro {
+  height: 46px;
+  width: 400px;
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #591dcc;
+}
+.email{
+ margin-left: 60px;
+  height: 35px;
+  width: 550px;
+  border-radius: 7px;
+  
+}
