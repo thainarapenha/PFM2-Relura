@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,18 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/CSS/bootstrap.css">
   <link rel="stylesheet" href="./src/CSS/exemplo.css">
+  <link rel="stylesheet" href="./src/CSS/login.css">
+  <link rel="stylesheet" href="./src/CSS/servico.css">
   <title>Document</title>
 </head>
 
 <body>
-
   <header>
 
     <!--Criando o navbar-->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
-      <img class="logo-marca" src="./src/img/novalogo.png" height="130px" alt="">
-      <a href="#" class="navbar-brand">
-      </a>
+      <img class="logo-marca" src="./src/img/novalogo.png" height="130px" alt="logo da empresa">
+      <a href="#" class="navbar-brand"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
         <span class="navbar-toggler-icon"></span>
@@ -26,26 +26,11 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item">
-            <a class="cabecalho" href="./exemplo.html" data-toggle="modal" data-target="#modalLogin">Início</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="cabecalho" href="./sobre.html" data-toggle="modal" data-target="#modalLogin">Sobre</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="cabecalho" href="#">Planos</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="cabecalho" href="#" data-toggle="modal" data-target="#modalLogin">Cadastre-se</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="btn btn-outline-primary ml-md-2" href="">Entrar</a>
-          </li>
+          <li class="nav-item"><a class="cabecalho" href="./exemplo.html" data-toggle="modal" data-target="#modalLogin">Início</a></li>
+          <li class="nav-item"><a class="cabecalho" href="./sobre.html" data-toggle="modal" data-target="#modalLogin">Sobre</a></li>
+          <li class="nav-item"><a class="cabecalho" href="#">Planos</a></li>
+          <li class="nav-item"><a class="cabecalho" href="#" data-toggle="modal" data-target="#modalLogin">Cadastre-se</a></li>
+          <li class="nav-item"><a class="btn btn-outline-primary ml-md-2" href="">Entrar</a></li>
         </ul>
       </div>
     </nav>
@@ -389,6 +374,146 @@
     </section>
     <!-- PARALLAX -->
   </main>
+
+  <!--Thainara-->
+  <!--Login-->
+  <main class="mainLogin">
+    <section class="section-login">
+        <img src="src/img/circulos-banner.png">
+
+        <form class="form-login">
+            <div class="form-group">
+            <label>Login</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu E-mail">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
+            </div>
+            
+            <div class="btns">
+                <button type="submit" class="btn btn-primary" id="btnEntrar">Continuar</button>
+                
+                <p id="texo-entreBTN">Ou entre com sua rede social</p>
+                
+                <button type="submit" class="btn btn-primary" id="btnFacebook">Entrar com Facebook</button>
+                <button type="submit" class="btn btn-primary" id="btnGoogle">Entrar com Google</button>
+                <button type="submit" class="btn btn-primary" id="btnEsqueceu-Senha">Esqueci minha senha</button>
+            </div>
+        </form>
+    </section>
+  </main>
+
+  <!--Thainara-->
+  <!--Serviços-->
+  <main class="mainServico">
+    <h1>Conheça <strong>nossos cursos</strong></h1>
+
+    <section class="cursos">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="src/img/imgJS.png" class="card-img-top" alt="...">
+                    <div class="card-body" >
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="src/img/imgSCRUM.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestão de tempo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="src/img/imgCNV.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunicação não violenta</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="src/img/imgGIT.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Git e GitHub</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="src/img/imgHTML-CSS.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML e CSS</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="src/img/imgFULL.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Stak Web</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="planos">
+        <h1>Conheça <strong>nossos planos</strong></h1>
+
+        <div class="cards container">
+            <div class="cards-item">
+                <h3 class="font-1-xl cor-p1">Básico</h3>
+
+                <ul class="font-2-m cor-0">
+                    <li>Suporte 24h</li>
+                    <li>Aulas gravadas</li>
+                    <li>Fórum e grupos de tira dúvidas</li>
+                    <li>Desenvovimento de portifólio</li>
+                    <li>Desconto especial para mulheres</li>
+                </ul>
+                
+                <span><strong>R$ 100 </strong> mensal</span>
+                <div class="botao">
+                    <a id="btn1" href="./orcamento.html">Inscreva-se</a>
+                </div>
+            </div>
+            
+            <div class="cards-item">
+                <h3 class="font-1-xl cor-p1">Completo</h3>
+                
+                <ul class="font-2-m cor-0">
+                    <li>Assistência especial e suporte 24h</li>
+                    <li>Grade de cursos completa</li>
+                    <li>Aulas gravadas e ao vivo</li>
+                    <li>Desenvovimento de portifólio</li>
+                    <li>Porjetos com squads de desemvolvimento</li>
+                    <li>Treinamento de soft skill</li>
+                    <li>Preparação para processos seletivos</li>
+                    <li>Desconto especial para mulheres</li>
+                </ul>
+
+                <span><strong>R$ 250 </strong> mensal</span>
+                <div class="botao">
+                    <a id="btn2" href="./orcamento.html">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
   <!--Conheça nossos treinamentos-->
   <footer class="rodape">
     <img src="./" alt="">
@@ -428,7 +553,6 @@
     <div class="rodape-2 text-center py-3">
       <p class="mb-0">Squad 7 © 2022. Alguns direitos reservados.</p>
     </div>
-
   </footer>
 
 </body>

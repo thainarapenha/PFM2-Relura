@@ -1,0 +1,35 @@
+.mainLogin .section-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.cabecalho{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+}
+.cabecalho nav{padding: .5%; margin-right: 5%;}
+
+#btnLogin-menu{width: 150px; background: #591DCC;}
+.form-login{width: 430px; position: absolute;}
+.form-login input{margin-bottom: 3%;}
+.form-login label{font-size: 36px;}
+    
+.btns button{
+    width: 100%;
+    color: white;
+    border: none;
+}
+.btns p, .btns #btnEsqueceu-Senha{
+    color: black;
+    text-align: center;
+    margin: 3% 0;
+}
+.btns #btnEntrar, #btnFacebook, #btnGoogle, #btnEsqueceu-Senha{width: 100%; color: white;}
+.btns #btnEntrar{background: #591DCC;}
+.fbtns #btnFacebook{background: #0D6EFD;}
+.btns #btnGoogle{background: #DC3545;}
+.btns #btnEsqueceu-Senha{border: 1px solid black; margin-top: 5%; background: white;}
