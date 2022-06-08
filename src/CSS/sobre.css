@@ -36,14 +36,10 @@
 }
 #row-cards {
   min-height: 600px;
-
-  /* Criando o efeito SCROLL */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* global settings */
   padding-top: 20px;
 }
 .p-about {
@@ -99,40 +95,31 @@
 
 .parallax {
   min-height: 600px;
-  background-image: url(/src/img/annie-spratt-QckxruozjRg-unsplash.jpg);
-  /* Criando o efeito SCROLL */
+  background-image: url(../img/annie-spratt-QckxruozjRg-unsplash.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* global settings */
   padding-top: 20px;
 }
 
 .parallax-2 {
   min-height: 600px;
-  background-image: url(/src/img/pna.png);
-  /* Criando o efeito SCROLL */
+  background-image: url(../img/pna.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* global settings */
   padding-top: 20px;
 }
 
 .parallax-3 {
   min-height: 600px;
   background-image: url(../img/decide2.png);
-  /* Criando o efeito SCROLL */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* global settings */
   padding-top: 20px;
 }
 
@@ -154,8 +141,6 @@
 .p-agile {
   text-align: center;
 }
-
-/* FLIP CARD */
 
 .flip-card {
   background-color: transparent;
@@ -353,13 +338,10 @@
   background-image: url();
   min-height: 600px;
   background-image: url(../img/logomarca.png);
-  /* Criando o efeito SCROLL */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* global settings */
   padding-top: 20px;
 }
 

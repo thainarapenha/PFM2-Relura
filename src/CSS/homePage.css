@@ -209,14 +209,11 @@ a {
 .parallax-4 {
   background-image: url();
   min-height: 600px;
-  background-image: url(/img/logomarca.png);
-  /* Criando o efeito SCROLL */
+  background-image: url(../img/logomarca.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* global settings */
   padding-top: 20px;
 }
 

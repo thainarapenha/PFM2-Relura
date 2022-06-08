@@ -34,8 +34,8 @@ $("#Entrar").click(() => {
     $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })
 
-$("#EsqueciSenha").submit(false)
 $("#EsqueciSenha").click(() => {
+    $("#EsqueciSenha").submit(false)
     $("#RecuperaçãoDeSenha").attr('style', '');
     $("#SobreNós").attr('style', 'display: none');
     $("#HomePage").attr('style', 'display: none');
