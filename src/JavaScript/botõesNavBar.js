@@ -3,6 +3,7 @@ $("#Início").click(() => {
     $("#SobreNós").attr('style', 'display: none');
     $("#Login").attr('style', 'display: none');
     $("#Serviços").attr('style', 'display: none');
+    $("#Cadastro").attr('style', 'display: none');
     $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })
 
@@ -11,6 +12,7 @@ $("#Sobre").click(() => {
     $("#HomePage").attr('style', 'display: none');
     $("#Login").attr('style', 'display: none');
     $("#Serviços").attr('style', 'display: none');
+    $("#Cadastro").attr('style', 'display: none');
     $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })
 
@@ -19,6 +21,7 @@ $("#Planos").click(() => {
     $("#SobreNós").attr('style', 'display: none');
     $("#Login").attr('style', 'display: none');
     $("#HomePage").attr('style', 'display: none');
+    $("#Cadastro").attr('style', 'display: none');
     $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })
 
@@ -27,15 +30,18 @@ $("#Entrar").click(() => {
     $("#SobreNós").attr('style', 'display: none');
     $("#HomePage").attr('style', 'display: none');
     $("#Serviços").attr('style', 'display: none');
+    $("#Cadastro").attr('style', 'display: none');
     $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })
 
+$("#EsqueciSenha").submit(false)
 $("#EsqueciSenha").click(() => {
     $("#RecuperaçãoDeSenha").attr('style', '');
     $("#SobreNós").attr('style', 'display: none');
     $("#HomePage").attr('style', 'display: none');
     $("#Serviços").attr('style', 'display: none');
-    $("#Login").attr('style', 'display: none'); 
+    $("#Cadastro").attr('style', 'display: none');
+    $("#Login").attr('style', 'display: none');
 })
 
 $("#Cadastre-se").click(() => {
@@ -44,4 +50,5 @@ $("#Cadastre-se").click(() => {
     $("#HomePage").attr('style', 'display: none');
     $("#Serviços").attr('style', 'display: none');
     $("#Login").attr('style', 'display: none');
+    $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })

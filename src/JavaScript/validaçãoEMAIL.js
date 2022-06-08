@@ -24,21 +24,26 @@ $("#InputEmail").blur(function () {
             if (EMAIL[EMAIL.indexOf("@") - 1] !== undefined && EMAIL[EMAIL.indexOf("@") + 1] !== undefined) {
                 if (EMAIL.split("@")[1].includes(".") && EMAIL.split("@")[1].includes("@") === false) {
                     if (validarDominio(EMAIL.split("@")[1])) {
-                        alert("email valido")
+                        //pass
                     } else {
-                        alert("digite um e-mail valido") 
+                        alert("digite um e-mail valido")
+                        $("#InputEmail").val("")
                     }
                 } else {
                     alert("digite um e-mail valido")
+                    $("#InputEmail").val("")
                 }
             } else {
                 alert("digite um e-mail valido")
+                $("#InputEmail").val("")
             }
         } else {
             alert("digite um e-mail valido")
+            $("#InputEmail").val("")
         }  
     } else {
         alert("digite um e-mail valido")
+        $("#InputEmail").val("")
     }
 })
 
@@ -49,21 +54,26 @@ $("#InputRecuperaSenha").blur(function () {
             if (EMAIL[EMAIL.indexOf("@") - 1] !== undefined && EMAIL[EMAIL.indexOf("@") + 1] !== undefined) {
                 if (EMAIL.split("@")[1].includes(".") && EMAIL.split("@")[1].includes("@") === false) {
                     if (validarDominio(EMAIL.split("@")[1])) {
-                        alert("email valido")
+                        //pass
                     } else {
                         alert("digite um e-mail valido")
+                        $("#InputRecuperaSenha").val("")
                     }
                 } else {
                     alert("digite um e-mail valido")
+                    $("#InputRecuperaSenha").val("")
                 }
             } else {
                 alert("digite um e-mail valido")
+                $("#InputRecuperaSenha").val("")
             }
         } else {
             alert("digite um e-mail valido")
+            $("#InputRecuperaSenha").val("")
         }
     } else {
         alert("digite um e-mail valido")
+        $("#InputRecuperaSenha").val("")
     }
 })
 
@@ -74,20 +84,25 @@ $("#InputCadastro").blur(function () {
             if (EMAIL[EMAIL.indexOf("@") - 1] !== undefined && EMAIL[EMAIL.indexOf("@") + 1] !== undefined) {
                 if (EMAIL.split("@")[1].includes(".") && EMAIL.split("@")[1].includes("@") === false) {
                     if (validarDominio(EMAIL.split("@")[1])) {
-                        alert("email valido")
+                        //pass
                     } else {
                         alert("digite um e-mail valido")
+                        $("#InputCadastro").val("")
                     }
                 } else {
                     alert("digite um e-mail valido")
+                    $("#InputCadastro").val("")
                 }
             } else {
                 alert("digite um e-mail valido")
+                $("#InputCadastro").val("")
             }
         } else {
             alert("digite um e-mail valido")
+            $("#InputCadastro").val("")
         }
     } else {
         alert("digite um e-mail valido")
+        $("#InputCadastro").val("")
     }
 })

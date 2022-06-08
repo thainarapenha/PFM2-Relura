@@ -1,5 +1,5 @@
 //Jquery Mask
-$("#inputcep").mask('00000-000')
+$('#inputcep').mask('00000-000');
 
 //função para limparCampos
 function limparCampos() {
