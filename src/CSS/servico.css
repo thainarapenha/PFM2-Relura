@@ -4,9 +4,11 @@
   align-items: center;
   padding: 8%;
 }
-
 .col {
-  padding: 5px;
+  
+  width: 100%;
+  max-width: 300px;
+  margin: .7%;
 }
 .col:hover {
   -moz-transform: scale(1.1);
@@ -53,7 +55,6 @@
   border-radius: 10px;
   background: black;
 }
-
 .botao {
   display: flex;
   flex-direction: column;

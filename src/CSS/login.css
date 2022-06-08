@@ -1,21 +1,14 @@
-/**.mainLogin .section-login {
+.mainLogin .section-login {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
-/*.cabecalho {
-  display: flex;
+.section-login{
   width: 100%;
-  justify-content: flex-end;
-  border-bottom: 1px solid black;
+  height: auto;
+  padding-top: 10%;
 }
-*.cabecalho nav {
-  padding: 0.5%;
-  margin-right: 5%;
-}
-
 #btnLogin-menu {
   width: 150px;
   background: #591dcc;
@@ -24,28 +17,23 @@
   width: 430px;
   position: absolute;
 }
-.form-login input {
-  margin-bottom: 3%;
+.form-group input {
+  width: 100%;
 }
 .form-login label {
   font-size: 36px;
 }
-
 .btns button {
   width: 100%;
   color: white;
   border: none;
 }
-.btns p,
-.btns #btnEsqueceu-Senha {
+.btns p, .btns #EsqueciSenha {
   color: black;
   text-align: center;
   margin: 3% 0;
 }
-.btns #btnEntrar,
-#btnFacebook,
-#btnGoogle,
-#btnEsqueceu-Senha {
+.btns #btnEntrar, #btnFacebook, #btnGoogle, #EsqueciSenha {
   width: 100%;
   color: white;
 }
@@ -58,7 +46,7 @@
 .btns #btnGoogle {
   background: #dc3545;
 }
-.btns #btnEsqueceu-Senha {
+.btns #EsqueciSenha {
   border: 1px solid black;
   margin-top: 5%;
   background: white;
