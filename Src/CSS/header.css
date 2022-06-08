@@ -1,0 +1,52 @@
+.logo-marca {
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.navbar-nav {
+  background: transparent;
+  border-radius: 5px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #6002f7;
+}
+
+.col-md-2 {
+  margin-left: 280px;
+}
+
+.cabecalho {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+}
+a.cabecalho {
+  text-decoration: none;
+  color: #010003;
+}
+a.cabecalho:hover {
+  color: #591dcc;
+}
+a.btn-outline-primary.ml-md-2 {
+  width: 100px;
+  height: 40px;
+  background: #591dcc;
+  color: #f6f5f7;
+  border-color: #591dcc;
+  text-decoration: none;
+}
+
+a.btn-outline-primary.ml-md-2:hover {
+  background: #f6f5f7;
+  color: #591dcc;
+}

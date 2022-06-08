@@ -1,278 +1,747 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Importando CSS -->
-        <link rel="stylesheet" href="src/CSS/style.css">
-        <link rel="stylesheet" href="src/CSS/login.css">
-        <link rel="stylesheet" href="src/CSS/servico.css">
-        <!-- <link rel="stylesheet" type="text/css" href="./src/CSS/nomedoarquivoCSS" /> -->
-        <!-- Importando Bootstrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!-- Importando JS -->
-        <!-- <script defer type="text/javascript" src="./src/JavaScript/nomedoarquivoJavaScript"></script> -->
 
-        <link rel="shortcut icon" href="#" type="image/x-icon" />
-        <title>Nome do Produto</title>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./src/CSS/bootstrap.css">
+  <link rel="stylesheet" href="./src/CSS/header.css">
+  <link rel="stylesheet" href="./src/CSS/footer.css">
+  <link rel="stylesheet" href="./src/CSS/homePage.css">
+  <link rel="stylesheet" href="./src/CSS/sobre.css">
+  <link rel="stylesheet" href="./src/CSS/servico.css">
+  <link rel="stylesheet" href="./src/CSS/cadastro.css">
+  <link rel="stylesheet" href="./src/CSS/login.css">
+  <link rel="stylesheet" href="./src/CSS/recuperaçãoDeSenha.css">
 
-    <body>
-        <!--Criando o navbar-->
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
-            <a href="#" class="navbar-brand"><img src="" alt=""></a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Contato</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Planos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Cadastre-se</a></li>
-                    <li class="nav-item"><a class="btn btn-outline-primary ml-md-2" href="">Entrar</a></li>
-                </ul>
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script defer type="text/javascript" src="src/JavaScript/validaçãoCEP.js"></script>
+  <script defer type="text/javascript" src="src/JavaScript/validaçãoEMAIL.js"></script>
+  <script defer type="text/javascript" src="src/JavaScript/botõesNavBar.js"></script>
+  <!---->
+  <title>Relura Career</title>
+</head>
+
+<body>
+  <!--Diego -->
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
+
+    <img class="logo-marca" src="src/img/novalogo.png" height="130px" alt="logo da empresa">
+
+    <a href="#" class="navbar-brand"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="cabecalho" id="Início" href="#" data-toggle="modal" data-target="#modalLogin">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="cabecalho" id="Sobre" href="#" data-toggle="modal" data-target="#modalLogin">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="cabecalho" id="Planos" href="#">Planos</a>
+        </li>
+        <li class="nav-item">
+          <a class="cabecalho" id="Cadastre-se" href="#" data-toggle="modal" data-target="#modalLogin">Cadastre-se</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary ml-md-2" id="Entrar" href="#">Entrar</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ------------------------------- -->
+
+  <!--Diego -->
+  <!--Home Page-->
+  <main id="HomePage">
+    <section class="container-fluid">
+      <div class="banner">
+        <img class="png" src="src/img/circulos-banner.png" width="506px" height="506px" alt="">
+        <div class="central">
+          <h2 class="display-4">Seu parceiro de <em class="roxo">confiança</em> para construir seu <em class="roxo">plano de carreira</em></h2>
+          <p class="paragrafo">Facilitamos sua entrada no mercado de trabalho com treinamentos personalizados</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <div class="container-1">
+
+        <div class="">
+          <span class=""></span>
+          <h2 class="display-5"> <strong class="roxo">QUESTIONAMOS</strong> O JEITO TRADICIONAL DE ENSINO</h2>
+          <p class="paragrafo-2">A nossa metodologia é voltada para solucionarmos problemas encontrados durante sua jornada tech.</p>
+
+    </section>
+    <section>
+      <div class="virou-descricao">
+        <div class="flip-card-descricao">
+          <div class="flip-card-inner-descricao">
+            <div class="flip-card-front-descricao">
+
+              <br><br>
+              <h5 class="card-title-descricao">Assista quando quiser</h5>
+              <i class="fa-solid fa-arrow-right-long"></i>
             </div>
-        </nav>
+            <div class="flip-card-back-descricao">
+              <p class="card-text-descricao">Assista as aulas no horário que for mais adequado para você.</p> <br>
 
-        <!--Fechando o navbar-->
-        <!-- <header class="cabecalho">
-            <nav class="nav nav-pills flex-column flex-sm-row">
-                <a class="flex-sm-fill text-sm-center nav-link" href="#">Planos</a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#">Cadatre-se</a>
-                <a class="flex-sm-fill text-sm-center nav-link active" href="#" id="btnLogin-menu">Entrar</a>
-            </nav>
-        </header> -->
-
-        <!--Primeira parte-->
-        <!-- <main class="mainHome">
-            <section class="container-fluid">
-                <div class="banner">
-                    <img class="png" src="./Src/img/circulos-banner.png" width="506px" height="506px" alt="">
-                    <div class="central">
-                        <h2 class="display-4 texte-primary">Seu parceiro de <em class="roxo">confiança</em> para construir seu <em class="roxo">plano de carreira</em></h2>
-                        <p>Facilitamos sua entrada no mercado de trabalho com treinamentos personalizados</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="py-5 bg-light text-center">
-                <div class="container">
-                    <div class="my-5">
-                        <span class="h6 d-block"></span>
-                        <h2 class="display-4 texte-primary"> <strong class="color">QUESTIONAMOS</strong> O JEITO TRADICIONAL DE ENSINO</h2>
-                        <p class="lead">A nossa metodologia é voltada para solucionarmos problemas encontrados durante sua jornada tech.</p>
-
-                        <div class="carde">
-                            <div class="card">
-                                <img src="" width="24px" height="24px" alt="img">
-                                <h1>Titulo</h1>
-                                <p>paragrafo</p>
-                            </div>
-                        </div>
-                        <div class="carde">
-                            <div class="card">
-                                <img src="" width="24px" height="24px" alt="img">
-                                <h1>Titulo</h1>
-                                <p>paragrafo</p>
-                            </div>
-                        </div>
-                        <div class="carde">
-                            <div class="card">
-                                <img src="" width="24px" height="24px" alt="img">
-                                <h1>Titulo</h1>
-                                <p>paragrafo</p>
-                            </div>
-                        </div>
-
-                        <img src="./Src/img/Captura de tela 2022-05-30 213428.jpg" alt="">
-            </section>
-        </main> -->
-
-        <!-- area de login -->
-        <!-- <main class="mainLogin">
-            <section class="section-login">
-                <img src="src/img/circulos-banner.png">
-
-                <form class="form-login">
-                    <div class="form-group">
-                    <label>Login</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu E-mail">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
-                    </div>
-                    
-                    <div class="btns">
-                        <button type="submit" class="btn btn-primary" id="btnEntrar">Continuar</button>
-                        
-                        <p id="texo-entreBTN">Ou entre com sua rede social</p>
-                        
-                        <button type="submit" class="btn btn-primary" id="btnFacebook">Entrar com Facebook</button>
-                        <button type="submit" class="btn btn-primary" id="btnGoogle">Entrar com Google</button>
-                        <button type="submit" class="btn btn-primary" id="btnEsqueceu-Senha">Esqueci minha senha</button>
-                    </div>
-                </form>
-            </section>
-        </main> --> -->
-
-        <!-- area de serviço -->
-         <main class="mainServico">
-            <h1>Conheça <strong>nossos cursos</strong></h1>
-
-            <section class="cursos">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="src/img/imgJS.png" class="card-img-top" alt="...">
-                            <div class="card-body" >
-                                <h5 class="card-title">JavaScript</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="src/img/imgSCRUM.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Gestão de tempo</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="src/img/imgCNV.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Comunicação não violenta</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="src/img/imgGIT.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Git e GitHub</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="src/img/imgHTML-CSS.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">HTML e CSS</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="src/img/imgFULL.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Full Stak Web</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="planos">
-                <h1>Conheça <strong>nossos planos</strong></h1>
-
-                <div class="cards container">
-                    <div class="cards-item">
-                        <h3 class="font-1-xl cor-p1">Básico</h3>
-
-                        <ul class="font-2-m cor-0">
-                            <li>Suporte 24h</li>
-                            <li>Aulas gravadas</li>
-                            <li>Fórum e grupos de tira dúvidas</li>
-                            <li>Desenvovimento de portifólio</li>
-                            <li>Desconto especial para mulheres</li>
-                        </ul>
-                        
-                        <span><strong>R$ 200 </strong> mensal</span>
-                        <!-- <span class="font-5-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span> -->
-                        <div class="botao">
-                            <a id="btn1" href="./orcamento.html">Inscreva-se</a>
-                        </div>
-                    </div>
-                    
-                    <div class="cards-item">
-                        <h3 class="font-1-xl cor-p1">Completo</h3>
-                        
-                        <ul class="font-2-m cor-0">
-                            <li>Assistência especial e suporte 24h</li>
-                            <li>Grade de cursos completa</li>
-                            <li>Aulas gravadas e ao vivo</li>
-                            <li>Desenvovimento de portifólio</li>
-                            <li>Porjetos com squads de desemvolvimento</li>
-                            <li>Treinamento de soft skill</li>
-                            <li>Preparação para processos seletivos</li>
-                            <li>Desconto especial para mulheres</li>
-                        </ul>
-
-                        <span><strong>R$ 200 </strong> mensal</span>
-                        <!-- <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span> -->
-                        <div class="botao">
-                            <a id="btn2" href="./orcamento.html">Inscreva-se</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        
-
-        <footer class="bg-dark text-white">
-            <div class="container py-4">
-                <div class="row"> <img src="." width="150px" height="100px" alt="">
-                    <div class="col-md-3 col-6">
-
-                        <h4 id="pagina" class="h6">PÁGINAS</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Planos</a></li>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="#">Inscreva-se</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h4 id="pagina" class="h6"></h4>
-                        <ul class="list-unstyled text-secondary">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-2">
-                        <h4 id="pagina" class="h6">REDES SOCIAIS</h4>
-                        <ul class="list-unstyled">
-                            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
-                            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
-                            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Youtube</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+          </div>
+        </div>
+        <div class="flip-card-descricao">
+          <div class="flip-card-inner-descricao">
+            <div class="flip-card-front-descricao">
 
-            <div class="bg-primary text-center py-3">
-                <p class="mb-0">Squad 7 © 2022. Alguns direitos reservados.</p>
+              <br><br>
+              <h5 class="card-title-descricao">Materiais complementares</h5>
+              <i class="fa-solid fa-arrow-right-long"></i>
             </div>
-        </footer>
+            <div class="flip-card-back-descricao">
+              <p class="card-text-descricao">Cursos digitais com ensino híbrido, além de ferramentas que facilitarão seu estudo.</p> <br>
 
-    </body>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card-descricao">
+          <div class="flip-card-inner-descricao">
+            <div class="flip-card-front-descricao">
+
+              <br><br>
+              <h5 class="card-title-descricao">Vivência com times e projetos</h5>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="flip-card-back-descricao">
+              <p class="card-text">Grupo de membros que você pode trocar experiências, trabalhar em projetos de portifólio e muito mais.</p> <br>
+
+            </div>
+          </div>
+        </div>
+        <div class="flip-card-descricao">
+          <div class="flip-card-inner-descricao">
+            <div class="flip-card-front-descricao">
+
+              <br><br>
+              <h5 class="card-title-descricao">Diversidade</h5>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="flip-card-back-descricao">
+              <p class="card-text-descricao">Insentivamos a entrada do público diversificado no mercado de tecnologia e desenvolvimento com descontos especiais.</p> <br>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="empresas">
+        <div>
+          <h2 class="empresa-titulo" style:margin: 0 aut0;>+40 empresas parceiras ao longo da nossa jornada.</h2>
+          <div>
+
+            <ul class="img-empresa">
+              <li><img class="img-stone" src="src/img/stone.png" alt=""></li>
+              <li> <img class="img-3" src="src/img/tovs.png"></li>
+              <li><img class="img-1" src="src/img/net5.png.crdownload" alt=""></li>
+              <li><img class="img-4" src="src/img/spot.png"></li>
+              <li><img class=" img-2" src="src/img/ifoodpng.png"></li>
+              <li><img class=" img-5" src="src/img/logo-ambev-white.png">
+              <li>
+            </ul>
+
+          </div>
+        </div>
+
+    </section>
+
+    <section>
+      <div class=" container-empresa"><img src="src/img/mulher.png" alt="">
+        <h2 class="container-empresa-titulo">Encontre o plano de carreira que tem a sua cara!</h2>
+        <button class="buto">Conheça os nossos treinamentos</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ------------------------------- -->
+
+  <!--Diego-->
+  <!--Sobre Nós-->
+  <main id="SobreNós" style="display:none;">
+    <section>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="src/img/abert.png" class="d-block w-100" alt="..." id="company">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5">Planos de Estudos</h5>
+              <p class="h5-5">Planos de estudos personalizados para atender a necessidade do desenvolvedor.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="src/img/code 4.jpg" class="d-block w-100" alt="..." id="company">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h2">Planos de Carreira</h5>
+              <p class="h2-2">Nós da Relura Career vamos ajudar você a descobrir o seu futuro.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="src/img/paico-oficial-ZDYN7azwO6c-unsplash.jpg" class="d-block w-100" alt="..." id="company">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h3">Quando Quiser e Onde Quiser</h5>
+              <p class="h3-3">Com aulas síncronas e assíncronas, você pode desfrutar da plataforma da maneira que quiser.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+
+
+      <div id="headerNav"></div>
+      <h1 class="title-about"><span class="span-title">Relura Career</span> plataforma <span class="innovate">digital</span>
+      </h1>
+      <p class="p-about">Estamos mudando a forma como os DEV's planejam suas carreiras. <br> A <strong>Relura Career</strong> tem como objetivo ajudar os programadores da próxima geração a ter um plano de carreira personalizado voltado para suas necessidades. <br> Conheça um pouco sobre a nossa empresa.</p>
+
+    </section>
+
+    <div id="headerNav"></div>
+
+    <section class="parallax">
+
+    </section>
+
+
+    <section class="back">
+
+      <h1 class="title-about">Qual é o objetivo da <span class="span-title">Relura Career</span>?</h1>
+
+      <p class="objetivo">Não é novidade para ninguém que a área de tecnologia avança a cada dia que passa. Novas tecnologias surgem o tempo todo e as empresas precisam ir se adaptando. O problema é que muitos desenvolvedores sentem a dificuldade de acompanhar o ritmo da tecnologia no dia a dia.</p>
+
+      <p class="objetivo">Estudos revelaram que cerca de 20% das pessoas que começam a estudar programação desistem nos primeiros meses por encontrar dificuldades durante a jornada. 58% não sabe como gerir seu tempo, 75% acham que as linguagens do mercado são difíceis de aprender e 85% sentem que não conseguem acompanhar o ritmo dos cursos em bootcamps.</p>
+      <section class="parallax-2"></section>
+      <h1 class="title-about">A <span class="span-title">Relura Career</span> tem o melhor para <span class="innovate">você.</span> </h1>
+    </section>
+
+    <section class="section-flipcard">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="src/img/plano1.png" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+            <br><br>
+            <h5 class="card-title">PLANOS DE ESTUDOS</h5>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <div class="flip-card-back">
+            <p class="p-back"></p>
+            <p class="card-text"> A '<strong>Relura Career</strong> adota a filosofia de que um desenvolvedor aprende melhor com a qualidade de estudo e não a quantidade. A metodologia que oferecemos em nossos planos de estudos é objetivo, atualizado e com conteúdos práticos.</p><br>
+
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="src/img/plano2.png" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+            <br><br>
+            <h5 class="card-title">PLANOS DE CARREIRA</h5>
+            <i class="fa-solid fa-arrow-right-long"></i> <br>
+          </div>
+          <div class="flip-card-back">
+            <p class="card-text">O nosso maior diferencial é direcionar o desenvolvedor para o melhor caminho com base em suas necessidades. Ofertamos os melhores cursos voltados para a área desejada, com professores altamente qualificados e uma metodologia voltada para o mercado de trabalha a nível internacional.</p><br>
+
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="src/img/plano3.png" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+            <br><br>
+            <h5 class="card-title">HABILIDADES TECHS E SOFTS</h5>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <div class="flip-card-back">
+            <p class="card-text">A <strong>Relura Career</strong> acredita que um bom desenvolvedor se equilibra em suas habilidades técnicas e habilidades comportamentais. A Relura Career não só irá te ajudar a desenvolver conhecimento técnico, como também suas habilidades comportamentais.</p> <br>
+
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="src/img/plano4.png" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+            <br><br>
+            <h5 class="card-title">METODOLOGIA ÁGIL</h5>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <div class="flip-card-back">
+            <p class="card-text">Na Relura Career você irá aprender o método ágil, um conjunto de comportamentos, processos, práticas e ferramentas utilizados para a criação de produtos para a criação do seu portfólio.</p> <br>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section>
+      <h1 class="title-about"><span class="span-title">Estudos Personalizados</span></h1>
+
+      <p class="objetivo">Sozinho ou com amigos, a <span class="span-title">Relura Career</span> é a única plataforma que possui planos de estudos personalizados em diferentes categorias. Junte-se com seus amigos para estudar em squad, resolver desafios e tirar dúvidas com nossos professores em tempo real, na hora que quiser.</p>
+      <br>
+
+      <section class="parallax-3"></section>
+    </section>
+
+    <section>
+      <h1 class="title-about">Conheça o <span class="span-title">Nosso Time</span>!</h1>
+
+      <section class="main-flipcard">
+
+        <p class="paragraph-flipcard">O time da <strong>Relura Career</strong> é composto por pessoas que acreditam que todos podem conquistar seus sonhos.<br></strong></p>
+        </div>
+      </section>
+
+      <!-- FLIPCARD -->
+      <section class="section-flipcard">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="src/img/diego.jpg" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+              <br><br>
+              <p class="p-name">Diego Tavares</p> Co-facilitador <br> Cofundador e mestre em UI UX Design <br>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="flip-card-back">
+              <p class="p-back">Diego é UI/UX Design na Relura Career e é motivado por praticar ideias pensadas. Foi um dos fundadores da empresa.</p> <br>
+              <button class="btn-linkedin"><a href="https://www.linkedin.com/in/diego-tavares-412b50213/"><i class="fa-brands fa-linkedin"></i></a></button>
+              <button class="btn-github"><a href="https://github.com/Cripim"><i class="fa-brands fa-github"></i></a></button>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="src/img/magnus3.jpeg" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+              <br><br>
+              <p class="p-name">Magnus Arthur</p>Gestor de Conhecimento <br>Cofundador e Programador Senior<br>
+              <i class="fa-solid fa-arrow-right-long"></i> <br>
+            </div>
+            <div class="flip-card-back">
+              <p class="p-back">Magnus é o gestor de conhecimento na Relura Career, responsável por gerir a equipe de conhecimento da grade curricular da plataforma.
+              </p> <br>
+              <button class="btn-linkedin"><a href="https://www.linkedin.com/in/magnus-arthur-925783210/"><i class="fa-brands fa-linkedin"></i></a></button>
+              <button class="btn-github"><a href="https://github.com/MagnusBittencourt"><i class="fa-brands fa-github"></i></a></button>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="src/img/thainara.jpg" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+              <br><br>
+              <p class="p-name">Thainara P.</p> Gestora de equipe e Marketing<br>Confundadora.<br>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="flip-card-back">
+              <p class="p-back">Gerente de Marketing na Relura Career, Thainara é focada em resultados e responsável por levar a Relura Career para todo o brasil.</p> <br>
+              <button class="btn-linkedin"><a href="https://www.linkedin.com/in/thainarapenha/"><i class="fa-brands fa-linkedin"></i></a></button>
+              <button class="btn-github"><a href="https://github.com/thainarapenha"><i class="fa-brands fa-github"></i></a></button>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="src/img/gustavo.jpg" alt="Avatar" style="width:300x;height:250px;" class="img-flipcard">
+              <br><br>
+              <p class="p-name">Gustavo Vieira</p> Programador Senior e Líder de Equipe<br>Cofundador<br>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="flip-card-back">
+              <p class="p-back">Gustavo é líder do time da Relura Career e é responsável pelo plano estratégico e tático, além de garantir todas as entregas do time, atuando em conjunto com a Thainara e o Magnus.</p> <br>
+              <button class="btn-github"><a href="https://github.com/GustavoVieiraDeAraujo"><i class="fa-brands fa-github"></i></a></button>
+              <button class="btn-linkedin"><a href=""><i class="fa-brands fa-linkedin"></i></a></button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="parallax-4"></section>
+    </section>
+    <!-- PARALLAX -->
+  </main>
+
+  <!-- ------------------------------- -->
+
+  <!--Thainara-->
+  <!--Login-->
+  <main class="mainLogin" id="Login" style="display:none;">
+    <section class="section-login">
+      <img src="src/img/circulos-banner.png">
+
+      <form class="form-login">
+        <div class="form-group">
+          <label>Login</label>
+          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Digite seu E-mail">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
+        </div>
+
+        <div class="btns">
+          <button type="submit" class="btn btn-primary" id="btnEntrar">Continuar</button>
+
+          <p id="texo-entreBTN">Ou entre com sua rede social</p>
+
+          <button type="submit" class="btn btn-primary" id="btnFacebook">Entrar com Facebook</button>
+          <button type="submit" class="btn btn-primary" id="btnGoogle">Entrar com Google</button>
+          <button type="submit" class="btn btn-primary" id="EsqueciSenha">Esqueci minha senha</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- ------------------------------- -->
+
+  <!--Thainara-->
+  <!--Serviços-->
+  <main class="mainServico" id="Serviços" style="display:none;">
+    <h1>Conheça <strong>nossos cursos</strong></h1>
+
+    <section class="cursos">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="src/img/imgJS.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">
+                Esse curso tem foco em que deseja aprender sobre JavaScrpt e jQuery para manipulação de DOM.
+                Você irá aprender sobre DOM, funções, POO e Classes. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="src/img/imgSCRUM.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gestão de tempo</h5>
+              <p class="card-text">
+                Aprenda a trabalhar em equipes ágeis, gestão de projetos, divisão de tarefas, 
+                as responsabilidades do Product Owner e do Scrum Master e muito mais.
+              </p>
+          </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="src/img/imgCNV.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Comunicação não violenta</h5>
+              <p class="card-text">
+                Aprenda boas práticas para se trabalhar em equipe. Esse curso tem foco em resolução 
+                de problemas, liderança, além de desenvolvimento de uma boa comunicação em equipes ágeis.  
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="src/img/imgGIT.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Git e GitHub</h5>
+              <p class="card-text">
+                Aprenda a trabalhar em times dinâmicos e desenvolva boas práticas de 
+                versionamento de código. Aqui você terá foco em ferramentas como Git e GitHub. 
+              </p>
+          </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="src/img/imgHTML-CSS.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HTML e CSS</h5>
+              <p class="card-text">
+                Este curso é para quem está em nível iniciante e deseja aprender a desenvolver 
+                Front-End de sites utilizando HTML e CSS do zero.  
+              </p>
+          </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="src/img/imgFULL.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full Stak Web</h5>
+              <p class="card-text">
+                Esse curso é para aqueles que querem se tornar um profissional completo e dinâmico. 
+                Aprenda a desenvolver projetos web do começo ao fim com as tecnologias mais recentes do mercado.
+              </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="planos">
+      <h1>Conheça <strong>nossos planos</strong></h1>
+
+      <div class="cards container">
+        <div class="cards-item">
+          <h3 class="font-1-xl cor-p1">Básico</h3>
+
+          <ul class="font-2-m cor-0">
+            <li>Suporte 24h</li>
+            <li>Aulas gravadas</li>
+            <li>Fórum e grupos de tira dúvidas</li>
+            <li>Desenvovimento de portifólio</li>
+            <li>Desconto especial para mulheres</li>
+          </ul>
+
+          <span><strong>R$ 60 </strong> mensal</span>
+          <div class="botao">
+            <a id="btn1" href="#">Inscreva-se</a>
+          </div>
+        </div>
+
+        <div class="cards-item">
+          <h3 class="font-1-xl cor-p1">Completo</h3>
+
+          <ul class="font-2-m cor-0">
+            <li>Assistência especial e suporte 24h</li>
+            <li>Grade de cursos completa</li>
+            <li>Aulas gravadas e ao vivo</li>
+            <li>Desenvovimento de portifólio</li>
+            <li>Porjetos com squads de desemvolvimento</li>
+            <li>Treinamento de soft skill</li>
+            <li>Preparação para processos seletivos</li>
+            <li>Desconto especial para mulheres</li>
+          </ul>
+
+          <span><strong>R$ 250 </strong> mensal</span>
+          <div class="botao">
+            <a id="btn2" href="#">Inscreva-se</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ------------------------------- -->
+
+  <!--Araújo-->
+  <!--Recuperação de Senha-->
+  <main class="RecuperaçãoSenha" id="RecuperaçãoDeSenha" style="display:none;">
+    <section class="teste">
+      <h1>
+        Recuperação de Senha
+      </h1>
+      <p>
+        Digite o E-mail cadastrado para recuperar sua senha
+      </p>
+      <input class="form-control" id="InputRecuperaSenha" type="text" placeholder="Digite seu E-mail">
+      <button class="btn btn-primary">
+        Continuar
+      </button>
+    </section>
+  </main>
+
+  <!-- ------------------------------- -->
+
+  <!--Magnus-->
+  <!--Cadastro-->
+  <main id="Cadastro" style="display:none;">
+    <!-- consertar aqui -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Cadastre-se</h1>
+    <br>
+    <form class="formCadastro">
+      <div class=" name  d-flex">
+
+        <div class="name d-flex flex-column">
+          <label for=""> Primeiro nome</label>
+          <input type="text" class="form-nome" placeholder="Primeiro nome*" id="nome-form" aria-label="Primeiro nome*" />
+        </div>
+
+        <div class=" name d-flex flex-column">
+          <label for="sobrenome-form">Sobrenome</label>
+          <input type="text" class="form-sobrenome" placeholder="sobrenome*" id="sobrenome-form" aria-label="sobrenome*" />
+        </div>
+      </div>
+
+      <br />
+      <div class="titulo-cep  d-flex flex-column">
+        <label>Digite seu CEP</label>
+
+        <div class=" d-flex">
+          <input type="text" class="form-cep " id="inputcep" placeholder="00000-000*" />
+          <div class="">
+            <button class="bnt">Buscar</button>
+            <button class="bntCEP">Não sei o meu CEP</button>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <!-- Nessa parte, voce tira o butão e aquele 'não sei meu CEP', coloca um complemento, diminui a caixa do Estado -->
+      <!-- Alinha os placeholders no meio -->
+
+      <div class=" rua-N d-flex">
+
+        <div class="d-flex flex-column">
+          <label>Rua</label>
+          <input type="text" class="form-R" placeholder="" id="Rua" aria-label=" Rua*" />
+        </div>
+        <div class="d-flex flex-column">
+          <label>Nº</label>
+          <input type="text" class="form-N" placeholder="" aria-label="sobrenome*" />
+        </div>
+      </div>
+      </div>
+      <br />
+      <div class="cep d-flex">
+        <div class="d-flex flex-column">
+          <label>Bairro</label>
+          <input id="Bairro" class="form-C" type="text" />
+        </div>
+        <div class="d-flex flex-column">
+          <label>Cidade</label>
+          <input id="Cidade" class="form-C" type="text" />
+        </div>
+        <div class="d-flex flex-column">
+          <label>Estado</label>
+          <input id="Estado" class="form-C" type="text" />
+        </div>
+      </div>
+      <br />
+      <p>Falta pouco! Coloque o seu E-mail</p>
+
+      <br />
+
+      <div class="emailsenha">
+
+        <div class="senha-email">
+          <label for="">Digite o seu email</label>
+          <input class="email" id="InputCadastro" placeholder="exemplo@gmail.com*" type="text" />
+        </div>
+
+        <div class="senha d-flex">
+          <div class="form-S d-flex flex-column">
+            <label for="">Senha</label>
+            <input class="form-senha" placeholder="Digite uma senha*" type="text" />
+          </div>
+
+          <div class="form-S d-flex flex-column">
+            <label for="">Confirme sua senha</label>
+            <input class="form-confirme-senha" placeholder="Confirme sua senha*" type="text" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <button class="bntcadastro">Finalizar cadastro</button>
+      <br />
+
+      <div class="checkbox"><input type="checkbox"> <label for="">Aceito receber a newsletter em meu email</label></div>
+      <br>
+    </form>
+  </main>
+
+  <!-- ------------------------------- -->
+
+  <!--Diego -->
+  <!--Footer-->
+  <footer class="rodape">
+    <img src="./" alt="">
+    <div class="container py-4">
+      <div class="row">
+
+        <div class="col-md-3 col-6">
+
+          <h4 id="pagina" class="h6">PÁGINAS</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Planos</a></li>
+            <li><a href="#">Cadastre-se</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h4 id="pagina" class="h6">Endereço</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>São Paulo, AV. Paulista - 1700</li>
+            <li>CEP: 58432-700</li>
+            <li>Reluracareer@gmail.com</li>
+
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4 id="pagina" class="h6">REDES SOCIAIS</h4>
+          <ul class="list-unstyled">
+            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
+            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
+            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="rodape-2 text-center py-3">
+      <p class="mb-0">© Todos os direitos reservados | Squad 7 </p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/32e33b27f8.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+</body>
+
 </html>
