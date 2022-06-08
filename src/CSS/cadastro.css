@@ -1,0 +1,146 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.cadastro {
+  margin-top: 200px;
+  text-align: center;
+  
+}
+
+
+p {
+  color: black;
+}
+.formCadastro {
+  margin: 0 auto;
+  width: 604px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-nome{
+  height: 50px;
+  width: 291px;
+  margin-right: 20px;
+  border-radius: 10px;
+  
+}
+
+.name {
+  text-align: left;
+  width: 604px;
+}
+
+.form-sobrenome{
+  height: 50px;
+  width: 291px;
+  border-radius: 10px;
+}
+
+.form-N{
+  height: 50px;
+  width: 183px;
+  border-radius: 10px;
+}
+.form-R{
+  height: 50px;
+  width: 291px;
+  border-radius: 10px;
+  margin-right: 14px;
+}
+.form-B{
+  height: 50px;
+  width: 291px;
+  border-radius: 10px;
+}
+.rua-N{
+ 
+  width: 604px;
+  text-align: left;
+  
+}
+.form-cep {
+  height: 50px;
+  width: 290px;
+  border-radius: 10px;
+}
+.form-comp{
+  margin-left: 19px;
+  height: 50px;
+  width: 290px;
+  border-radius: 10px;
+}
+
+.cep{
+  text-align: left;
+}
+
+.form-C{
+  height: 50px;
+  width: 291px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0px 13px 0px 0px;
+  }
+
+
+.titulo-cep {
+  text-align: left;
+  width: 604px;
+  margin: 3px;
+}
+
+
+
+.rua-cep {
+  height: 35px;
+  width: 250px;
+}
+
+.N-cep {
+  width: 160px;
+}
+
+.senha {
+  display: flex;
+}
+
+.bntcadastro {
+  height: 50px;
+  width: 604px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #591dcc;
+}
+.email {
+  height: 50px;
+  width: 604px;
+  border-radius: 10px;
+
+}
+.form-S{
+  text-align: left;
+  margin: 5px;
+}
+.senha-email{
+text-align: left;
+}
+
+.form-senha{
+  height: 50px;
+  width: 291px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.form-confirme-senha{
+  height: 50px;
+  width: 291px;
+  border-radius: 10px;
+}
+.checkbox{
+  color: black;
+}

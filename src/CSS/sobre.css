@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#company {
+  width: 1000px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.title-about {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.span-title {
+  font-weight: bold;
+  color: #591dcc;
+}
+.objetivo {
+  padding: 50px;
+  overflow: hidden;
+
+  align-items: center;
+  line-height: 1.8em;
+  font-size: 20px;
+}
+.card-body:hover {
+  box-shadow: #591dcc;
+
+  color: #591dcc;
+  transition-duration: 1s;
+}
+#row-cards {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+.p-about {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+
+.back {
+  background: transparent;
+}
+.front {
+  padding: 10px;
+}
+.career {
+  color: #591dcc;
+}
+
+.card-title {
+  color: #591dcc;
+}
+
+.cards-section {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.innovate {
+  font-weight: bold;
+  color: rgb(24, 24, 24);
+}
+
+.h5 {
+  color: #591dcc;
+}
+.h5-5 {
+  color: rgb(245, 245, 245);
+}
+.h2 {
+  color: #591dcc;
+}
+.h2-2 {
+  color: rgb(255, 255, 255);
+}
+
+.h3 {
+  color: #591dcc;
+}
+.h3-3 {
+  color: black;
+}
+
+.parallax {
+  min-height: 600px;
+  background-image: url(../img/annie-spratt-QckxruozjRg-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.parallax-2 {
+  min-height: 600px;
+  background-image: url(../img/pna.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.parallax-3 {
+  min-height: 600px;
+  background-image: url(../img/decide2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  padding: auto;
+}
+
+.agile {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.methodology {
+  font-weight: bold;
+}
+
+.p-agile {
+  text-align: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #5a1dcc94;
+  perspective: 1000px;
+  border-radius: 10px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.flip-card-front {
+  background-color: rgba(92, 90, 90, 0.063);
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #591dcc;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+.title-flipcard {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+  color: grey;
+  font-weight: 600;
+}
+
+.img-flipcard {
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.section-flipcard {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.main-flipcard {
+  text-align: center;
+  padding: 30px;
+}
+
+.btn-github i {
+  color: #591dcc;
+  font-size: 20px;
+}
+
+.btn-linkedin i {
+  color: #591dcc;
+  font-size: 20px;
+}
+
+.btn-github,
+.btn-linkedin {
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+.p-name {
+  font-weight: 600;
+}
+
+.p-back {
+  margin-top: 15px;
+  text-align: right;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.paragraph-flipcard {
+  margin: 0 30%;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 17px;
+}
+
+@media (max-width: 380px) {
+  .parallax {
+    display: none;
+  }
+
+  .section-flipcard {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+  }
+
+  .paragraph-flipcard {
+    font-size: 15px;
+    padding: 2px;
+  }
+
+  #rowcards {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .parallax {
+    display: none;
+  }
+
+  .section-flipcard {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+  }
+
+  .paragraph-flipcard {
+    font-size: 15px;
+    padding: 2px;
+    margin: 0;
+  }
+
+  #rowcards {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .parallax {
+    display: none;
+  }
+
+  .section-flipcard {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 0 20%;
+    align-items: center;
+  }
+
+  .paragraph-flipcard {
+    font-size: 15px;
+    padding: 2px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .section-flipcard {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 0% 30%;
+    align-items: center;
+  }
+
+  .parallax {
+    display: none;
+  }
+}
+
+.card-text {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: #f1f1f1;
+}
+.parallax-4 {
+  background-image: url();
+  min-height: 600px;
+  background-image: url(../img/logomarca.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.nav-item {
+  color: #591dcc;
+}

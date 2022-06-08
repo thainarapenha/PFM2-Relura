@@ -1,0 +1,56 @@
+.mainLogin .section-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-login{
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+}
+#btnLogin-menu {
+  width: 150px;
+  background: #591dcc;
+}
+.form-login {
+  width: 430px;
+  position: absolute;
+}
+.form-group input {
+  width: 100%;
+}
+.form-login label {
+  font-size: 36px;
+}
+.btns button {
+  width: 100%;
+  color: white;
+  border: none;
+}
+.btns p, .btns #EsqueciSenha {
+  color: black;
+  text-align: center;
+  margin: 3% 0;
+}
+.btns #btnEntrar, #btnFacebook, #btnGoogle, #EsqueciSenha {
+  width: 100%;
+  color: white;
+}
+.btns #btnEntrar {
+  background: #591dcc;
+}
+.fbtns #btnFacebook {
+  background: #0d6efd;
+}
+.btns #btnGoogle {
+  background: #dc3545;
+}
+.btns #EsqueciSenha {
+  border: 1px solid black;
+  margin-top: 5%;
+  background: white;
+}
+.tirandoSublinhado{
+  text-decoration: none;
+}

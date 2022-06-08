@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.RecuperaçãoSenha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/circulos-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  margin-top: 150px;
+}
+
+.RecuperaçãoSenha section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.RecuperaçãoSenha input {
+  text-align: center;
+  width: 100%;
+}
+
+.RecuperaçãoSenha button {
+  width: 100%;
+}
