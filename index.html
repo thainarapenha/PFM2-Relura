@@ -68,104 +68,133 @@
     <!--Fechando o navbar-->
 
     <main>
-<h1>Cadastre-se</h1>
+      <br>
+        <h1>Cadastre-se</h1>
+        <br>
       <form>
-        <div class="row g-3">
-          <div class="form-name">
-            <div class="col">
-              Primeiro nome
+        <div class=" name  d-flex">
+          
+            <div class="name d-flex flex-column">
+             <label for=""> Primeiro nome</label>
               <input
                 type="text"
-                class="form-control"
+                class="form-nome"
                 placeholder="Primeiro nome*"
+                id="nome-form"
                 aria-label="Primeiro nome*"
               />
             </div>
-          </div>
-          <div class="col">
-            sobrenome
+          
+          <div class=" name d-flex flex-column">
+            <label for="sobrenome-form">Sobrenome</label>
             <input
               type="text"
-              class="form-control"
+              class="form-sobrenome"
               placeholder="sobrenome*"
+              id="sobrenome-form"
               aria-label="sobrenome*"
             />
           </div>
         </div>
 
         <br />
-        <label>Digite seu CEP</label>
-        <div class="row">
-          <input
-            type="text"
-            class="form-cep"
-            id="inputcep"
-            placeholder="00000-000*"
-            aria-label="00000-000*"
-          />
-          <button class="bnt">Buscar</button>
-          <button class="bntCEP">Não sei o meu CEP</button>
+        <div class="titulo-cep  d-flex flex-column">
+          <label>Digite seu CEP</label>
+
+          <div class=" d-flex">
+            <input
+              type="text"
+              class="form-cep "
+              id="inputcep"
+              placeholder="00000-000*"
+              aria-label="00000-000*"
+            />
+            <div class="">
+              <button class="bnt">Buscar</button>
+              <button class="bntCEP">Não sei o meu CEP</button>
+            </div>
+          </div>
         </div>
         <br />
 
-        <div class="d-flex">
-          <label>Rua</label>
-          <input
-            type="text"
-            class="form-control"
-            placeholder=""
-            aria-label=" Rua*"
-          />
-
-          <label>Nº</label>
-          <input
-            type="text"
-            class="form-control"
-            placeholder=""
-            aria-label="sobrenome*"
-          />
+        <div class=" rua-N d-flex">
+          
+          <div class="d-flex flex-column">
+            <label>Rua</label>
+            <input
+              type="text"
+              class="form-R"
+              placeholder=""
+              aria-label=" Rua*"
+            />
+          </div>
+            <div class="d-flex flex-column">
+              <label>Nº</label>
+            <input
+              type="text"
+              class="form-N"
+              placeholder=""
+              aria-label="sobrenome*"
+            />
+          </div>
+          </div>
         </div>
         <br />
-        <div class="cep">
-          <label>Bairro</label>
-          <input class="cep" type="text" />
-          <label>Cidade</label>
-          <input class="cep" type="text" />
-          <label>Estado</label>
-          <input class="cep" type="text" />
+        <div class="cep d-flex">
+          <div class="d-flex flex-column">
+            <label>Bairro</label>
+            <input class="form-C" type="text" />
+          </div>
+          <div class="d-flex flex-column">
+            <label>Cidade</label>
+            <input class="form-C" type="text" />
+          </div>
+          <div class="d-flex flex-column">
+            <label>Estado</label>
+            <input class="form-C" type="text" />
+          </div>
         </div>
         <br />
         <p>Falta pouco! Coloque o seu E-mail</p>
 
         <br />
-        <label for="">Digite o seu email</label>
+        
         <div class="emailsenha">
           
+          <div class="senha-email">
+            <label for="">Digite o seu email</label>
+            <input
+              class="email"
+              placeholder="exemplo@gmail.com*"
+              type="text"
+            />
+          </div>
+        
+          <div class="senha d-flex">
+            <div class="form-S d-flex flex-column">
+              <label for="">Senha</label>
+              <input
+                class="form-senha"
+                placeholder="Digite uma senha*"
+                type="text"/>
+            </div>
 
-          <input
-            class="email"
-            placeholder="exemplo@gmail.com*"
-            type="text"
-          />
-          <br><br>
-          <div class="senha">
-            Senha
-            <input
-              class="form-control"
-              placeholder="Digite uma senha*"
-              type="text"
-            />
-            Confirme sua senha
-            <input
-              class="form-control"
-              placeholder="Confirme sua senha*"
-              type="text"
-            />
+            <div class="form-S d-flex flex-column">
+              <label for="">Confirme sua senha</label>
+              <input
+                class="form-confirme-senha"
+                placeholder="Confirme sua senha*"
+                type="text"
+              />
+            </div>
           </div>
         </div>
         <br />
         <button class="bntcadastro">Finalizar cadastro</button>
-        <br />
+        <br/>
+
+        <div class="checkbox"><input type="checkbox"> <label for="">Aceito receber a newsletter em meu email</label></div>
+        <br>
       </form>
     </main>
 
