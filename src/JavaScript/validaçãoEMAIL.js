@@ -66,3 +66,28 @@ $("#InputRecuperaSenha").blur(function () {
         alert("digite um e-mail valido")
     }
 })
+
+$("#InputCadastro").blur(function () {
+    let EMAIL = $("#InputCadastro").val()
+    if (!(EMAIL.includes(" "))) {
+        if (EMAIL.includes("@")) {
+            if (EMAIL[EMAIL.indexOf("@") - 1] !== undefined && EMAIL[EMAIL.indexOf("@") + 1] !== undefined) {
+                if (EMAIL.split("@")[1].includes(".") && EMAIL.split("@")[1].includes("@") === false) {
+                    if (validarDominio(EMAIL.split("@")[1])) {
+                        alert("email valido")
+                    } else {
+                        alert("digite um e-mail valido")
+                    }
+                } else {
+                    alert("digite um e-mail valido")
+                }
+            } else {
+                alert("digite um e-mail valido")
+            }
+        } else {
+            alert("digite um e-mail valido")
+        }
+    } else {
+        alert("digite um e-mail valido")
+    }
+})

@@ -1,6 +1,9 @@
+//Jquery Mask
+$("#inputcep").mask('00000-000')
+
 //função para limparCampos
 function limparCampos() {
-    $("#CEP").val("")
+    $("#inputcep").val("")
     $("#Estado").val("")
     $("#Cidade").val("")
     $("#Bairro").val("")
@@ -8,8 +11,8 @@ function limparCampos() {
 }
 
 //validação CEP
-$("#Cep").blur(function () {
-    let CEP = $("#CEP").val().replace("-", "")
+$("#inputcep").blur(function () {
+    let CEP = $("#inputcep").val().replace("-", "")
     if (CEP.length === 8) {
         $.get(`https://viacep.com.br/ws/${CEP}/json`, function (JSON) {
             try {

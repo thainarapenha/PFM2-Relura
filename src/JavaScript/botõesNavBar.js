@@ -38,3 +38,10 @@ $("#EsqueciSenha").click(() => {
     $("#Login").attr('style', 'display: none'); 
 })
 
+$("#Cadastre-se").click(() => {
+    $("#Cadastro").attr('style', '');
+    $("#SobreNós").attr('style', 'display: none');
+    $("#HomePage").attr('style', 'display: none');
+    $("#Serviços").attr('style', 'display: none');
+    $("#Login").attr('style', 'display: none');
+})

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/CSS/cadastro.css">
+    <link rel="stylesheet" href="src/CSS/cadastro.css">
     <link rel="stylesheet" href="src/CSS/bootstrap.css">
     <link rel="stylesheet" href="src/CSS/homePage.css">
     <link rel="stylesheet" href="src/CSS/login.css">
@@ -563,7 +563,15 @@
      
     <!--Magnus-->
     <!--Cadastro-->
-    <main>
+    <main id="Cadastro" style="display:none;">
+      <!-- consertar aqui -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <br>
         <h1>Cadastre-se</h1>
         <br>
@@ -603,7 +611,6 @@
               class="form-cep "
               id="inputcep"
               placeholder="00000-000*"
-              aria-label="00000-000*"
             />
             <div class="">
               <button class="bnt">Buscar</button>
@@ -613,6 +620,9 @@
         </div>
         <br />
 
+        <!-- Nessa parte, voce tira o butão e aquele 'não sei meu CEP', coloca um complemento, diminui a caixa do Estado -->
+        <!-- Alinha os placeholders no meio -->
+
         <div class=" rua-N d-flex">
           
           <div class="d-flex flex-column">
@@ -621,6 +631,7 @@
               type="text"
               class="form-R"
               placeholder=""
+              id="Rua"
               aria-label=" Rua*"
             />
           </div>
@@ -639,15 +650,15 @@
         <div class="cep d-flex">
           <div class="d-flex flex-column">
             <label>Bairro</label>
-            <input class="form-C" type="text" />
+            <input id="Bairro" class="form-C" type="text" />
           </div>
           <div class="d-flex flex-column">
             <label>Cidade</label>
-            <input class="form-C" type="text" />
+            <input id="Cidade" class="form-C" type="text" />
           </div>
           <div class="d-flex flex-column">
             <label>Estado</label>
-            <input class="form-C" type="text" />
+            <input id="Estado" class="form-C" type="text" />
           </div>
         </div>
         <br />
@@ -661,6 +672,7 @@
             <label for="">Digite o seu email</label>
             <input
               class="email"
+              id="InputCadastro"
               placeholder="exemplo@gmail.com*"
               type="text"
             />
