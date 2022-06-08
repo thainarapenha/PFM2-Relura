@@ -1,0 +1,37 @@
+.rodape {
+  background: black;
+  margin-top: 100px;
+}
+
+.rodape-2 {
+  background: #591dcc;
+  color: rgb(0, 0, 0);
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+  color: white;
+}
+li:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #591dcc;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.text-secondary {
+  color: #591dcc !important;
+}
+
+.btn-outline-secondary {
+  color: #591dcc;
+  border-color: #591dcc;
+}
+
+.col-md-2 {
+  margin-left: 280px;
+}

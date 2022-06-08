@@ -1,13 +1,3 @@
-body {
-  width: 100%;
-  height: 100vh;
-}
-
-main {
-  background-color: #ffffff;
-  color: #591dcc;
-  text-align: center;
-}
 p {
   color: black;
 }
@@ -20,12 +10,11 @@ form {
   align-items: center;
 }
 
-.form-nome{
+.form-nome {
   height: 50px;
   width: 291px;
   margin-right: 20px;
   border-radius: 10px;
-  
 }
 
 .name {
@@ -33,28 +22,26 @@ form {
   width: 604px;
 }
 
-.form-sobrenome{
+.form-sobrenome {
   height: 50px;
   width: 291px;
   border-radius: 10px;
 }
 
-.form-N{
+.form-N {
   height: 50px;
   width: 183px;
   border-radius: 10px;
 }
-.form-R{
+.form-R {
   height: 50px;
   width: 395px;
   border-radius: 10px;
   margin-right: 14px;
 }
-.rua-N{
- 
+.rua-N {
   width: 604px;
   text-align: left;
-  
 }
 .form-cep {
   height: 50px;
@@ -63,17 +50,17 @@ form {
   border-radius: 10px;
 }
 
-.cep{
+.cep {
   text-align: left;
 }
 
-.form-C{
+.form-C {
   height: 50px;
   width: 188px;
   border-radius: 10px;
   text-align: left;
   margin: 0px 13px 0px 0px;
-  }
+}
 
 .bnt {
   margin-right: 20px;
@@ -90,7 +77,6 @@ form {
   width: 604px;
   margin: 3px;
 }
-
 
 .bntCEP {
   background-color: rgb(255, 255, 255);
@@ -126,25 +112,25 @@ form {
   width: 604px;
   border-radius: 10px;
 }
-.form-S{
+.form-S {
   text-align: left;
   margin: 5px;
 }
-.senha-email{
-text-align: left;
+.senha-email {
+  text-align: left;
 }
 
-.form-senha{
+.form-senha {
   height: 50px;
   width: 291px;
   border-radius: 10px;
   margin-right: 10px;
 }
-.form-confirme-senha{
+.form-confirme-senha {
   height: 50px;
   width: 291px;
   border-radius: 10px;
 }
-.checkbox{
+.checkbox {
   color: black;
 }

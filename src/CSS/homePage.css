@@ -1,12 +1,9 @@
-.logo-marca {
-  display: flex;
-  flex-direction: column;
-  margin-top: -50px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-.navbar-nav {
-  margin-top: -30px;
-}
 .banner {
   width: 100%;
   height: 100vh;
@@ -131,27 +128,30 @@
 }
 
 .container-empresa-titulo {
+  display: block;
+  justify-content: center;
+  align-items: center;
   margin-top: -180px;
-  margin-left: 70px;
+  margin-left: 50px;
   color: white;
-  font-size: 26px;
+  font-size: 24px;
 }
 .buto {
   margin-top: 50px;
-  margin-left: 70px;
+  margin-left: 50px;
   width: 331px;
   height: 50px;
   border-radius: 5px;
   background: black;
   color: white;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 16px;
 }
-.buto-a {
+.buto {
   text-decoration: none;
   color: white;
 }
-.buto-a:hover {
+.buto:hover {
   color: #591dcc;
 }
 
@@ -238,12 +238,11 @@ li {
 .col-md-2 {
   margin-left: 280px;
 }
-.virou {
-  margin-top: 60px;
+.virou-descricao {
   margin-bottom: -150px;
   margin-left: 70px;
 }
-.flip-card {
+.flip-card-descricao {
   margin-top: -250px;
   margin-bottom: 250px;
   display: inline-block;
@@ -255,7 +254,7 @@ li {
   perspective: 1000px;
   border-radius: 10px;
 }
-.flip-card-inner {
+.flip-card-inner-descricao {
   position: relative;
   width: 100%;
   height: 100%;
@@ -263,12 +262,12 @@ li {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.flip-card:hover .flip-card-inner {
+.flip-card-descricao:hover .flip-card-inner-descricao {
   transform: rotateY(180deg);
   border-radius: 10px;
 }
-.flip-card-front,
-.flip-card-back {
+.flip-card-front-descricao,
+.flip-card-back-descricao {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -276,18 +275,18 @@ li {
   backface-visibility: hidden;
   border-radius: 10px;
 }
-.flip-card-front {
+.flip-card-front-descricao {
   background-color: rgba(92, 90, 90, 0.063);
   color: black;
 }
 
-.flip-card-back {
+.flip-card-back-descricao {
   background-color: #591dcc;
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
 }
 
-.title-flipcard {
+.title-flipcard-descricao {
   text-align: center;
   padding-top: 5px;
   font-size: 30px;
@@ -295,12 +294,12 @@ li {
   font-weight: 600;
 }
 
-.img-flipcard {
+.img-flipcard-descricao {
   border-radius: 50%;
   padding-top: 20px;
 }
 
-.section-flipcard {
+.section-flipcard-descricao {
   display: flex;
   margin-left: 30px;
   margin-right: 30px;
@@ -311,17 +310,17 @@ li {
   cursor: pointer;
 }
 
-.main-flipcard {
+.main-flipcard-descricao {
   text-align: center;
   padding: 30px;
 }
 
-.card-title {
+.card-title-descricao {
   margin-top: 40px;
   font-size: 1.2em;
   text-transform: uppercase;
 }
 
-.card-text {
+.card-text-descricao {
   margin-top: 80px;
 }

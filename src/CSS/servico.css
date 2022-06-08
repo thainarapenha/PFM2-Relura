@@ -1,58 +1,77 @@
-.cursos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8%;
+.cursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
 }
 
-.col{padding: 5px;}
-.col:hover{
-    -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-    cursor: pointer;
+.col {
+  padding: 5px;
 }
-.card-text{
-    color: black;
+.col:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
 }
-.planos, .planos h1{display: block;}
-.planos h1, .cursos h1, .mainServico h1{text-align: center;}
-.planos strong, .mainServico strong{color: #591DCC;}
+.card-text {
+  color: black;
+}
+.planos,
+.planos h1 {
+  display: block;
+}
+.planos h1,
+.cursos h1,
+.mainServico h1 {
+  text-align: center;
+}
+.planos strong,
+.mainServico strong {
+  color: #591dcc;
+}
 .container {
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    padding: 60px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px;
+  align-items: center;
 }
-.cards-item{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    padding: 32px 32px 32px 60px;
-    border-radius: 10px;
-    background: black;
+.cards-item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 32px 32px 32px 60px;
+  border-radius: 10px;
+  background: black;
 }
 
-.botao{display: flex; flex-direction: column; padding: 10px 0;}
-#btn1, #btn2{
-    display: inline-block;
-    max-width: max-content;
-    color: white;
-    text-transform: uppercase;
-    font: 600 1.125rem/1.35 "Poppins", sans-serif;
-    padding: 10px 30px;
-    border-radius: 10px;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
-    border: 2px solid #591DCC;
-    cursor: pointer;
+.botao {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
 }
-#btn2{background: #591DCC;}
+#btn1,
+#btn2 {
+  display: inline-block;
+  max-width: max-content;
+  color: white;
+  text-transform: uppercase;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  border: 2px solid #591dcc;
+  cursor: pointer;
+}
+#btn2 {
+  background: #591dcc;
+}
