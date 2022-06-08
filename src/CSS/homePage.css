@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.png {
+  margin-top: 50px;
+  position: absolute;
+  left: 35%;
+  right: 100%;
+}
+
+.container-1 {
+  margin-top: -200px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragrafo-2 {
+  margin-left: 80px;
+}
+
+.display-4 {
+  margin-top: 90px;
+  margin-left: 215px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 77.45px;
+  align-items: center;
+}
+.roxo {
+  color: #591dcc;
+}
+.paragrafo {
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 420px;
+}
+
+.display-5 {
+  font-size: 36px;
+}
+.example {
+  text-align: justify;
+}
+.example-item {
+  border-radius: 10px;
+  margin: 30px;
+  width: 25%;
+  height: 150px;
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  box-shadow: 10px coral;
+}
+.example-item_first {
+  text-align: center;
+  color: white;
+}
+.carde {
+  margin-top: -150px;
+  margin-bottom: 150px;
+  margin-left: 110px;
+}
+.empresas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 1227;
+  height: 310px;
+  background: black;
+
+  border-radius: 10px;
+}
+
+.empresa-titulo {
+  color: white;
+  text-align: center;
+}
+
+.img-empresa {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
+}
+
+.img-stone {
+  height: 80px;
+  margin-top: -20px;
+}
+.img-1 {
+  height: 80px;
+}
+.img-2 {
+  height: 100px;
+  margin-top: 20px;
+}
+.img-3 {
+  height: 50px;
+}
+.img-4 {
+  height: 60px;
+}
+.img-5 {
+  height: 50px;
+  margin-top: -10px;
+}
+
+.container-empresa {
+  margin-top: -150px;
+  margin-left: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-empresa-titulo {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: -180px;
+  margin-left: 50px;
+  color: white;
+  font-size: 24px;
+}
+.buto {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 331px;
+  height: 50px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+}
+.buto {
+  text-decoration: none;
+  color: white;
+}
+.buto:hover {
+  color: #591dcc;
+}
+
+.rodape {
+  background: black;
+  margin-top: 100px;
+}
+
+.rodape-2 {
+  background: #591dcc;
+}
+
+a {
+  color: #591dcc;
+}
+
+.text-secondary {
+  color: #591dcc !important;
+}
+
+.btn-outline-secondary {
+  color: #591dcc;
+  border-color: #591dcc;
+}
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  width: 100px;
+  height: 40px;
+  background: #ffffff;
+  color: #591dcc;
+  border-color: #591dcc;
+}
+.btn-outline-primary:hover {
+  background: #591dcc;
+  border-color: #591dcc;
+}
+
+.navbar-nav {
+  background: transparent;
+  border-radius: 5px;
+}
+.nav-item {
+  color: #f1f1f1;
+}
+
+.card-text {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: #f1f1f1;
+}
+.parallax-4 {
+  background-image: url();
+  min-height: 600px;
+  background-image: url(/img/logomarca.png);
+  /* Criando o efeito SCROLL */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* global settings */
+  padding-top: 20px;
+}
+
+.nav-item {
+  color: #591dcc;
+}
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.col-md-2 {
+  margin-left: 280px;
+}
+.virou-descricao {
+  margin-bottom: -150px;
+  margin-left: 70px;
+}
+.flip-card-descricao {
+  margin-top: -250px;
+  margin-bottom: 250px;
+  display: inline-block;
+
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #5a1dcc94;
+  perspective: 1000px;
+  border-radius: 10px;
+}
+.flip-card-inner-descricao {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card-descricao:hover .flip-card-inner-descricao {
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+.flip-card-front-descricao,
+.flip-card-back-descricao {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.flip-card-front-descricao {
+  background-color: rgba(92, 90, 90, 0.063);
+  color: black;
+}
+
+.flip-card-back-descricao {
+  background-color: #591dcc;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+.title-flipcard-descricao {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+  color: grey;
+  font-weight: 600;
+}
+
+.img-flipcard-descricao {
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.section-flipcard-descricao {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.main-flipcard-descricao {
+  text-align: center;
+  padding: 30px;
+}
+
+.card-title-descricao {
+  margin-top: 40px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.card-text-descricao {
+  margin-top: 80px;
+}
