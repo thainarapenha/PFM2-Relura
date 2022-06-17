@@ -23,3 +23,11 @@ na turma referente as principais dificuldades.
   <li>Criei página de login e serviços;</li>
   <li>Fiz e organizei a documentação das etapas do projeto;</li>
 </ul>
+
+<h3>Diego Tavares</h3>
+<ul>
+  <li>Responsável pela interface, UI/UX, Home Page e a página Sobre;</li>
+  <li>Criei a logo, nome da plataforma e os designs utilizados no projeto;</li>
+  <li>Fui responsável por consertar os bugs da quebra de layout e reestruturação dos arquivos CSS;</li>
+  <li>Responsável por elaborar toda a apresentação do projeto e o pitch no canvas;</li>
+</ul>
