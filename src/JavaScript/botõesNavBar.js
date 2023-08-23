@@ -52,3 +52,12 @@ $("#Cadastrar").click(() => {
     $("#Login").attr('style', 'display: none');
     $("#RecuperaçãoDeSenha").attr('style', 'display: none');
 })
+
+$("#linkRecuperar").click(() => {
+    $("#Cadastro").attr('style', 'display: none');
+    $("#SobreNós").attr('style', 'display: none');
+    $("#HomePage").attr('style', 'display: none');
+    $("#Serviços").attr('style', 'display: none');
+    $("#Login").attr('style', 'display: none');
+    $("#RecuperaçãoDeSenha").attr('style', '');
+})
