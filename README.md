@@ -1,33 +1,48 @@
-<h1>Relura Carrer</h1>
+# Relura
+![t1](https://user-images.githubusercontent.com/43799802/174451244-3cdaca41-b1f6-496e-ac4c-d6904798ad50.PNG)
 
-<h2>Sobre o projeto</h1>
-Trata-se de uma plataforma de cursos/treinamentos focados na formação de desenvolvedores web. A proposta do mesmo veio com o objetivo de sanar problemas reais observados 
-na turma referente as principais dificuldades.
+## Status do Projeto;
+✅ Concluído e apresentado, porém será adicionado melhorias ao longo do meu estudo.
 
-<h2>Contribuições para o Projeto</h2>
+## Sobre o projeto;
+Trata-se de uma plataforma de cursos/treinamentos focados na formação de desenvolvedores web. A proposta do mesmo veio com o objetivo de sanar problemas reais observados na turma referente as principais dificuldades da mesma com seu processo de aprendizagem.
 
-<h3>Gustavo Vieira de Araújo</h3>
-<ul>
-  <li>Criei o repositorio do Projeto;</li>
-  <li>Fiz o JavaScript dos botões do Navbar;</li>
-  <li>Criei a pagina de Recuperação de Senha;</li>
-  <li>Criei a validação do campos de CEP e Email;</li>
-  <li>Organizei a estrutura de arquivos e pastas do Projeto;</li>
-  <li>Assiti os demais integrantes com Git e GitHub;</li>
-</ul>
+🔐 Autoria desse projeto pertence a Squad 7, Turma 19, Módulo II da Resilia Educação.
 
-<h3>Thainara Penha</h3>
-<ul>
-  <li>Realizei a análise dos dados utilizado para o desenvolvimento do projeto;</li>
-  <li>Criei o protótipo de telas do projeto no figma;</li>
-  <li>Criei página de login e serviços;</li>
-  <li>Fiz e organizei a documentação das etapas do projeto;</li>
-</ul>
+## Desenvolvimento do projeto;
+🛠 O projeto foi pensando com o objetivo de sanar um problema e/ou dificuldade observada ou enfrentada pelos membros da squad ou da turma como um geral. Nosso planejamento contou com as seguintes etapas:
 
-<h3>Diego Tavares</h3>
-<ul>
-  <li>Responsável pela interface, UI/UX, Home Page e a página Sobre;</li>
-  <li>Criei a logo, nome da plataforma e os designs utilizados no projeto;</li>
-  <li>Fui responsável por consertar os bugs da quebra de layout e reestruturação dos arquivos CSS;</li>
-  <li>Responsável por elaborar toda a apresentação do projeto e o pitch no canvas;</li>
-</ul>
+- Brainstorming;
+- Golden circle;
+- Formulário de pesquisa;
+- Análise de dados do formulário;
+- Prototipação no figma;
+- Definição e divisão de backlog;
+- Documentação de projeto;
+- Apresentação de projeto;
+
+Esse projeto foi apresentado dia 08/06/2022 e pode ser acessado clicando em [Slides de apresentação Relura](https://drive.google.com/file/d/1e_ynHIRq6qCHrW18ZqwY0mxeexA6KWFn/view?usp=sharing)
+
+## GitHub Pages;
+🔗 O projeto Relura pode ser acessado no GitHub Pages: [Relura](https://thainarapenha.github.io/PFM2-Relura/)
+
+## Requisitos;
+⚙ Todas as páginas devem utilizar o mesmo cabeçalho e rodapé. O projeto deve conter as seguintes telas: 
+
+- Inicial;
+- Contanto;
+- Serviço;
+- Login;
+- Recuperação de senha;
+- Cadastro na lista de espera;
+
+Além disso, o mesmo também deve conter:
+- Uso do framework CSS Bootstrap (versão 4 ou superior);
+- Uso de API ViaCEP para obtenção de dados referentes aos CEPs utilizados no na tela de cadastro;
+- Uso de repositório público no GitHub (com todos os integrantes do grupo como colaboradores);
+- Uso do GithubPage;
+
+## Conclusão;
+🗂 Até o momento, esse é o projeto mais intenso que trabalhei. Desenvolvimento muito massivo, problemas com ferramentas ao longo do caminho (que se converteu em aprendizagem), acréscimo de conhecimentos absorvidos de outros projetos anteriores em que trabalhei, além de muita troca com os membros da squad. Foi um projeto difícil, mas que me acrescentou bastante. Pretendo continuar adicionando melhorias a este projeto a medida que vou estudando.
+
+Desde já, agradeço a atenção e estou aberta a feedbacks :)
