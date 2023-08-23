@@ -44,7 +44,7 @@ $("#EsqueciSenha").click(() => {
     $("#Login").attr('style', 'display: none');
 })
 
-$("#Cadastre-se").click(() => {
+$("#Cadastrar").click(() => {
     $("#Cadastro").attr('style', '');
     $("#SobreNós").attr('style', 'display: none');
     $("#HomePage").attr('style', 'display: none');
