@@ -4,6 +4,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 header {
@@ -27,6 +28,15 @@ header button {
   border: 0;
   border-radius: 4px;
   background-color:  #0c44ee;
+}
+
+ #btnLogin{
+  width: 200px;
+  height: 40px;
+  color: #0c44ee;
+  border: 1px solid #0c44ee;
+  border-radius: 4px;
+  background-color:  white;
 }
 
 nav {
@@ -139,7 +149,33 @@ nav ul li a:hover {
   color: #0c44ee;
 }
 
+.planosHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 0;
+}
 
+.planosHome h2 {
+  padding: 1% 0;
+}
+
+.divCards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.planosHome .card {
+  margin: 2%;
+}
+
+
+.lista ul li {
+  list-style: disc;
+}
+/* 
 
 
 
@@ -456,4 +492,4 @@ li {
 
 .card-text-descricao {
   margin-top: 80px;
-}
+} */

@@ -1,214 +1,249 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="./src/CSS/bootstrap.css">
-  <link rel="stylesheet" href="./src/CSS/header.css">
-  <link rel="stylesheet" href="./src/CSS/footer.css">
-  <link rel="stylesheet" href="./src/CSS/homePage.css">
-  <link rel="stylesheet" href="./src/CSS/sobre.css">
-  <link rel="stylesheet" href="./src/CSS/servico.css">
-  <link rel="stylesheet" href="./src/CSS/cadastro.css">
-  <link rel="stylesheet" href="./src/CSS/login.css">
-  <link rel="stylesheet" href="./src/CSS/recuperaçãoDeSenha.css">
-  <link rel="shortcut icon" href="#" type="image/x-icon" />
-  <script defer type="text/javascript" src="./src/JavaScript/validaçãoCEP.js"></script>
-  <script defer type="text/javascript" src="./src/JavaScript/validaçãoEMAIL.js"></script>
-  <script defer type="text/javascript" src="./src/JavaScript/botõesNavBar.js"></script>
-  <title>Plataforma Cursos</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./src/CSS/header.css">
+    <link rel="stylesheet" href="./src/CSS/footer.css">
+    <link rel="stylesheet" href="./src/CSS/homePage.css">
+    <link rel="stylesheet" href="./src/CSS/sobre.css">
+    <link rel="stylesheet" href="./src/CSS/servico.css">
+    <link rel="stylesheet" href="./src/CSS/cadastro.css">
+    <link rel="stylesheet" href="./src/CSS/login.css">
+    <link rel="stylesheet" href="./src/CSS/recuperaçãoDeSenha.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <script defer type="text/javascript" src="./src/JavaScript/validaçãoCEP.js"></script>
+    <script defer type="text/javascript" src="./src/JavaScript/validaçãoEMAIL.js"></script>
+    <script defer type="text/javascript" src="./src/JavaScript/botõesNavBar.js"></script>
+    <title>Plataforma Cursos</title>
+  </head>
 
-<body>
-  <header>
-    <img src="src/img/logo.jpg" alt="">
-    <nav>
-      <ul>
-        <li><a id="Início" href="#HomePage">Início</a></li>
-        <li><a id="Sobre" href="#SobreNós">Sobre</a></li>
-        <li><a id="Cadastrar" href="#Cadastro">Cadastre-se</a></li>
-      </ul>
-    </nav>
+  <body>
+    <header>
+      <img src="src/img/logo.jpg" alt="">
+      <nav>
+        <ul>
+          <li><a id="Início" href="#HomePage">Início</a></li>
+          <li><a id="Sobre" href="#SobreNós">Sobre</a></li>
+          <li><a id="Cadastrar" href="#Cadastro">Cadastre-se</a></li>
+        </ul>
+      </nav>
 
-    <button>Matricule-se</button>
-  </header>
+      <button>Matricule-se</button>
+      <button id="btnLogin">Login</button>
+    </header>
 
-  <main id="HomePage" >
-    <!-- BANNER -->
-    <section>
-      <div class="banner">
-        <div class="txt-banner">
-          <h2>Seu parceiro de <span class="azul">confiança</span> para construir seu <span class="azul">plano de
-              carreira</span></h2>
-          <p>Facilitamos sua entrada no mercado de trabalho com treinamentos personalizados</p>
-          <button>Conheça nossos cursos</button>
-        </div>
-
-        <img src="src/img/img-banner.jpg" width="50%" alt="">
-      </div>
-    </section>
-
-    <section class="beneficios">
-      <ul>
-        <li>Aulas gravadas</li>
-        <li>Cursos diversos</li>
-        <li>Material complementar</li>
-        <li>Certificado de conclusão</li>
-      </ul>
-    </section>
-
-    <section class="cta-trilhas-estudos">
-      <img src="src/img/img-cursos.jpg" width="50%" />
-      <div>
-        <h3>Seu estudo de forma personalizada</h3>
-        <p>Estude com trilhas específicas com seu objetivo. Navege e descubra qual trilha se encaixa melhor com o que vc
-          busca e alcance suas metas.</p>
-        <button>Matricule-se</button>
-      </div>
-    </section>
-
-    <section class="cursos">
-      <h2>Nossos cursos</h2>
-
-      <div class="container-cards">
-        <div class="card" style="width: 18rem; margin: 1% 3%;">
-          <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">HTML, CSS e JavaScript</h5>
-            <p class="card-text">Comece seu primeiro projeto web. Entenda os princípios fundamentais para iniciar sua
-              carreira em desenvolvimento web.</p>
-            <a href="#" class="btn btn-primary">Fazer matrícula</a>
+    <main id="HomePage" >
+      <section>
+        <div class="banner">
+          <div class="txt-banner">
+            <h2>Seu parceiro de <span class="azul">confiança</span> para construir seu <span class="azul">plano de
+                carreira</span></h2>
+            <p>Facilitamos sua entrada no mercado de trabalho com treinamentos personalizados</p>
+            <button>Conheça nossos cursos</button>
           </div>
+
+          <img src="src/img/img-banner.jpg" width="50%" alt="">
         </div>
-        <div class="card" style="width: 18rem; margin: 1% 3%;">
-          <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">TypeScript</h5>
-            <p class="card-text">Quer passar de nível na programação? Aprenda agora mesmo usando uma linguagem mais
-              completa que JavaScript.</p>
-            <a href="#" class="btn btn-primary">Fazer matrícula</a>
-          </div>
+      </section>
+
+      <section class="beneficios">
+        <ul>
+          <li>Aulas gravadas</li>
+          <li>Cursos diversos</li>
+          <li>Material complementar</li>
+          <li>Certificado de conclusão</li>
+        </ul>
+      </section>
+
+      <section class="cta-trilhas-estudos">
+        <img src="src/img/img-cursos.jpg" width="50%" />
+        <div>
+          <h3>Seu estudo de forma personalizada</h3>
+          <p>Estude com trilhas específicas com seu objetivo. Navege e descubra qual trilha se encaixa melhor com o que vc
+            busca e alcance suas metas.</p>
+          <button>Matricule-se</button>
         </div>
-        <div class="card" style="width: 18rem; margin: 1% 3%;">
-          <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Front-End do básico ao avançado</h5>
-            <p class="card-text">Saia na frente e se destaque com uma formação mais completa e específica de programação
-              Front-End.</p>
-            <a href="#" class="btn btn-primary">Fazer matrícula</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; margin: 1% 3%;">
-          <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">NodeJS e Express</h5>
-            <p class="card-text">Já conhece front e quer complementar o conhecimento ou quer iniciar na programação como
-              back-end? Esse cursos é para você.</p>
-            <a href="#" class="btn btn-primary">Fazer matrícula</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; margin: 1% 3%;">
-          <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Back-End do básico ao avançado</h5>
-            <p class="card-text">Quer iniciar uma carreira na área de desenvolvimento de sistemas? Aprenda como atuar
-              como dev back-end.</p>
-            <a href="#" class="btn btn-primary">Fazer matrícula</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; margin: 1% 3%;">
-          <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">.NET</h5>
-            <p class="card-text">Aprenda uma das principais linguagens de programação para back-end.</p>
-            <a href="#" class="btn btn-primary">Fazer matrícula</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <main id="SobreNós" style="display:none;">
-    <section class="titulo-sobre">
-      <h1><span class="azul">Rocket Educação</span> é uma plataforma digital que te aproxima de seus objetivos</h1>
+      <section class="cursos">
+        <h2>Nossos cursos</h2>
 
-      <p>Estamos mudando a forma como os DEV's planejam suas carreiras. Nosso objetivo é ajudar os programadores com um
-        plano de carreira
-        personalizado voltado para suas necessidades.</p>
-    </section>
-
-    <section class="objetivo-empresa">
-      <div>
-        <h2>Você sabia que...</h2>
-
-        <p>Não é novidade para ninguém que a área de tecnologia avança a cada dia que passa. Novas
-          tecnologias surgem o tempo todo e as empresas precisam ir se adaptando. O problema é que muitos
-          desenvolvedores sentem a dificuldade de acompanhar o ritmo da tecnologia no dia a dia.</p>
-        <p>Estudos revelaram que cerca de 20% das pessoas que começam a estudar programação desistem nos
-          primeiros meses por encontrar dificuldades durante a jornada. 58% não sabe como gerir seu tempo, 75% acham que
-          as linguagens do mercado são difíceis de aprender e 85% sentem que não conseguem acompanhar o ritmo dos cursos
-          em bootcamps.</p>
-      </div>
-
-      <img src="src/img/objetivo-img.jpg" />
-    </section>
-
-    <section class="cards-vantagens">
-      <h2>O que temos a oferecer</h2>
-
-      <div class="section-flipcard">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h5>Planos de estudo</h5>
+        <div class="container-cards">
+          <div class="card" style="width: 18rem; margin: 1% 3%;">
+            <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">HTML, CSS e JavaScript</h5>
+              <p class="card-text">Comece seu primeiro projeto web. Entenda os princípios fundamentais para iniciar sua
+                carreira em desenvolvimento web.</p>
+              <a href="#" class="btn btn-primary">Fazer matrícula</a>
             </div>
+          </div>
+          <div class="card" style="width: 18rem; margin: 1% 3%;">
+            <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">TypeScript</h5>
+              <p class="card-text">Quer passar de nível na programação? Aprenda agora mesmo usando uma linguagem mais
+                completa que JavaScript.</p>
+              <a href="#" class="btn btn-primary">Fazer matrícula</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin: 1% 3%;">
+            <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Front-End do básico ao avançado</h5>
+              <p class="card-text">Saia na frente e se destaque com uma formação mais completa e específica de programação
+                Front-End.</p>
+              <a href="#" class="btn btn-primary">Fazer matrícula</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin: 1% 3%;">
+            <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">NodeJS e Express</h5>
+              <p class="card-text">Já conhece front e quer complementar o conhecimento ou quer iniciar na programação como
+                back-end? Esse cursos é para você.</p>
+              <a href="#" class="btn btn-primary">Fazer matrícula</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin: 1% 3%;">
+            <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Back-End do básico ao avançado</h5>
+              <p class="card-text">Quer iniciar uma carreira na área de desenvolvimento de sistemas? Aprenda como atuar
+                como dev back-end.</p>
+              <a href="#" class="btn btn-primary">Fazer matrícula</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; margin: 1% 3%;">
+            <img class="card-img-top" src="src/img/codigo-notebook-lateral.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">.NET</h5>
+              <p class="card-text">Aprenda uma das principais linguagens de programação para back-end.</p>
+              <a href="#" class="btn btn-primary">Fazer matrícula</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="flip-card-back">
-              <p> Temos a filosofia de que um desenvolvedor aprende melhor com a qualidade de estudo e não a quantidade.
-                Nossa metodologia estudos é objetiva, atualizada e
-                com conteúdos práticos.</p>
+      <section class="planosHome">
+        <h2>Nossos planos</h2>
+
+        <div class="divCards">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Plano básico</h5>
+              <div class="lista">
+                <ul>
+                  <li>Aulas gravadas</li>
+                  <li>Fórum e grupos de tira dúvidas</li>
+                  <li>Desenvovimento de portifólio</li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-primary">Assinar plano</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Plano completo</h5>
+              <div class="lista">
+                <ul>
+                  <li>Suporte 24h</li>
+                  <li>Aulas gravadas</li>
+                  <li>Material de apoio</li>
+                  <li>Fórum e grupos de tira dúvidas</li>
+                  <li>Desenvovimento de portifólio</li>
+                  <li>Certificação de conclusão</li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-primary">Assinar plano</a>
             </div>
           </div>
         </div>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h5>Qualidade de ensino</h5>
-            </div>
+      </section>
+    </main>
 
-            <div class="flip-card-back">
-              <p>Cursos voltados para a área desejada, com professores altamente qualificados e uma metodologia voltada
-                para o mercado de trabalha a nível internacional.</p>
+    <main id="SobreNós" style="display:none;" style="display:none;">
+      <section class="titulo-sobre">
+        <h1><span class="azul">Rocket Educação</span> é uma plataforma digital que te aproxima de seus objetivos</h1>
+
+        <p>Estamos mudando a forma como os DEV's planejam suas carreiras. Nosso objetivo é ajudar os programadores com um
+          plano de carreira
+          personalizado voltado para suas necessidades.</p>
+      </section>
+
+      <section class="objetivo-empresa">
+        <div>
+          <h2>Você sabia que...</h2>
+
+          <p>Não é novidade para ninguém que a área de tecnologia avança a cada dia que passa. Novas
+            tecnologias surgem o tempo todo e as empresas precisam ir se adaptando. O problema é que muitos
+            desenvolvedores sentem a dificuldade de acompanhar o ritmo da tecnologia no dia a dia.</p>
+          <p>Estudos revelaram que cerca de 20% das pessoas que começam a estudar programação desistem nos
+            primeiros meses por encontrar dificuldades durante a jornada. 58% não sabe como gerir seu tempo, 75% acham que
+            as linguagens do mercado são difíceis de aprender e 85% sentem que não conseguem acompanhar o ritmo dos cursos
+            em bootcamps.</p>
+        </div>
+
+        <img src="src/img/objetivo-img.jpg" />
+      </section>
+
+      <section class="cards-vantagens">
+        <h2>O que temos a oferecer</h2>
+
+        <div class="section-flipcard">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h5>Planos de estudo</h5>
+              </div>
+
+              <div class="flip-card-back">
+                <p> Temos a filosofia de que um desenvolvedor aprende melhor com a qualidade de estudo e não a quantidade.
+                  Nossa metodologia estudos é objetiva, atualizada e
+                  com conteúdos práticos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h5>Qualidade de ensino</h5>
+              </div>
+
+              <div class="flip-card-back">
+                <p>Cursos voltados para a área desejada, com professores altamente qualificados e uma metodologia voltada
+                  para o mercado de trabalha a nível internacional.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h5>Habilidades diversas</h5>
+              </div>
+
+              <div class="flip-card-back">
+                <p>Desenvolva suas habilidades interpessoais com nossos cursos de soft skill. Torne-se um profissional
+                  completo.</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h5>Habilidades diversas</h5>
-            </div>
+        <button>Conheça nossos planos</button>
+      </section>
+    </main>
 
-            <div class="flip-card-back">
-              <p>Desenvolva suas habilidades interpessoais com nossos cursos de soft skill. Torne-se um profissional
-                completo.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <button>Conheça nossos planos</button>
-    </section>
-  </main>
-
-  <main class="mainLogin" id="Login" style="display:none;">
-    <section class="section-login">
-      <img src="src/img/circulos-banner.png">
-
+    <main class="mainLogin" id="Login" style="display:none;">
       <form class="form-login">
         <div class="form-group">
           <label>Login</label>
@@ -225,247 +260,115 @@
           <button type="submit" class="btn btn-primary" id="btnFacebook">Entrar com Facebook</button>
           <button type="submit" class="btn btn-primary" id="btnGoogle">Entrar com Google</button>
           <a href="#" class="btn btn-primary" id="EsqueciSenha">Esqueci minha senha</a>
-          </a>
         </div>
       </form>
-    </section>
-  </main>
+    </main>
 
-  <main class="mainServico" id="Serviços" style="display:none;">
-    <h1>Conheça <strong>nossos cursos</strong></h1>
+    <main class="RecuperacaoSenha" id="RecuperaçãoDeSenha" style="display:none;">
+      <section>
+        <h1>Recuperação de Senha</h1>
+        <p>Digite o E-mail cadastrado para recuperar sua senha</p>
 
-    <section class="cursos">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="src/img/imgJS.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">JavaScript</h5>
-              <p class="card-text">
-                Esse curso tem foco em que deseja aprender sobre JavaScrpt e jQuery para manipulação de DOM.
-                Você irá aprender sobre DOM, funções, POO e Classes.
-              </p>
-            </div>
+        <input class="form-control" id="InputRecuperaSenha" type="text" placeholder="Digite seu E-mail">
+        <button class="btn btn-primary">
+          Continuar
+        </button>
+      </section>
+    </main>
+
+    <main id="Cadastro" class="cadastro" style="display:none;">
+      <h1>Cadastre-se</h1>
+
+      <form class="formCadastro">
+        <div class="campo d-flex">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nome-form" placeholder="Nome">
+            <label for="floatingInput">Nome</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="sobrenome-form" placeholder="Sobrenome">
+            <label for="floatingPassword">Sobrenome</label>
           </div>
         </div>
 
-        <div class="col">
-          <div class="card h-100">
-            <img src="src/img/imgSCRUM.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gestão de tempo</h5>
-              <p class="card-text">
-                Aprenda a trabalhar em equipes ágeis, gestão de projetos, divisão de tarefas,
-                as responsabilidades do Product Owner e do Scrum Master e muito mais.
-              </p>
-            </div>
+        <div class="campo d-flex">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="inputcep" placeholder="00000-000">
+            <label for="floatingInput">CEP</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="comp" placeholder="Password">
+            <label for="floatingPassword">Complemento</label>
           </div>
         </div>
 
-        <div class="col">
-          <div class="card h-100">
-            <img src="src/img/imgCNV.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Comunicação não violenta</h5>
-              <p class="card-text">
-                Aprenda boas práticas para se trabalhar em equipe. Esse curso tem foco em resolução
-                de problemas, liderança, além de desenvolvimento de uma boa comunicação em equipes ágeis.
-              </p>
-            </div>
+        <div class="campo d-flex">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Rua" placeholder="Rua">
+            <label for="floatingInput">Rua</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="Bairro" placeholder="Bairro">
+            <label for="floatingPassword">Bairro</label>
           </div>
         </div>
 
-        <div class="col">
-          <div class="card h-100">
-            <img src="src/img/imgGIT.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Git e GitHub</h5>
-              <p class="card-text">
-                Aprenda a trabalhar em times dinâmicos e desenvolva boas práticas de
-                versionamento de código. Aqui você terá foco em ferramentas como Git e GitHub.
-              </p>
-            </div>
+        <div class="campo d-flex">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Cidade" placeholder="Cidade">
+            <label for="floatingInput">Cidade</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="Estado" placeholder="Estado">
+            <label for="floatingPassword">Estado</label>
           </div>
         </div>
 
-        <div class="col">
-          <div class="card h-100">
-            <img src="src/img/imgHTML-CSS.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">HTML e CSS</h5>
-              <p class="card-text">
-                Este curso é para quem está em nível iniciante e deseja aprender a desenvolver
-                Front-End de sites utilizando HTML e CSS do zero.
-              </p>
-            </div>
+        <div class="campo d-flex">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="InputCadastro" placeholder="name@example.com">
+            <label for="floatingInput">E-mail</label>
           </div>
         </div>
 
-        <div class="col">
-          <div class="card h-100">
-            <img src="src/img/imgFULL.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Full Stak Web</h5>
-              <p class="card-text">
-                Esse curso é para aqueles que querem se tornar um profissional completo e dinâmico.
-                Aprenda a desenvolver projetos web do começo ao fim com as tecnologias mais recentes do mercado.
-              </p>
-            </div>
+        <div class="campo d-flex">
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Senha</label>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="planos">
-      <h1>Conheça <strong>nossos planos</strong></h1>
-
-      <div class="cards container">
-        <div class="cards-item">
-          <h3 class="font-1-xl cor-p1">Básico</h3>
-
-          <ul class="font-2-m cor-0">
-            <li>Suporte 24h</li>
-            <li>Aulas gravadas</li>
-            <li>Fórum e grupos de tira dúvidas</li>
-            <li>Desenvovimento de portifólio</li>
-            <li>Desconto especial para mulheres</li>
-          </ul>
-
-          <span><strong>R$ 60 </strong> mensal</span>
-          <div class="botao">
-            <a id="btn1" href="#">Inscreva-se</a>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Confime sua senha</label>
           </div>
         </div>
 
-        <div class="cards-item">
-          <h3 class="font-1-xl cor-p1">Completo</h3>
+        <button class="btnCadastro">Finalizar cadastro</button>
+        <p><a id="linkRecuperar" href="#">Esqueceu a senha?</a></p>
 
-          <ul class="font-2-m cor-0">
-            <li>Assistência especial e suporte 24h</li>
-            <li>Grade de cursos completa</li>
-            <li>Aulas gravadas e ao vivo</li>
-            <li>Desenvovimento de portifólio</li>
-            <li>Porjetos com squads de desemvolvimento</li>
-            <li>Treinamento de soft skill</li>
-            <li>Preparação para processos seletivos</li>
-            <li>Desconto especial para mulheres</li>
-          </ul>
-
-          <span><strong>R$ 250 </strong> mensal</span>
-          <div class="botao">
-            <a id="btn2" href="#">Inscreva-se</a>
-          </div>
+        <div class=" teste form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+          <label class="form-check-label" for="flexCheckIndeterminate">
+            Aceito receber a newsletter em meu e-mail
+          </label>
         </div>
-      </div>
-    </section>
-  </main>
+      </form>
+    </main>
 
-  <main class="RecuperacaoSenha" id="RecuperaçãoDeSenha" style="display:none;">
-    <section>
-      <h1>Recuperação de Senha</h1>
-      <p>Digite o E-mail cadastrado para recuperar sua senha</p>
+    <footer>
+      <p>© Todos os direitos reservados</p>
+    </footer>
 
-      <input class="form-control" id="InputRecuperaSenha" type="text" placeholder="Digite seu E-mail">
-      <button class="btn btn-primary">
-        Continuar
-      </button>
-    </section>
-  </main>
-
-  <main id="Cadastro" class="cadastro" style="display:none;">
-    <h1>Cadastre-se</h1>
-
-    <form class="formCadastro">
-      <div class="campo d-flex">
-        <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="" placeholder="Nome">
-          <label for="floatingInput">Nome</label>
-        </div>
-        <div class="form-floating">
-          <input type="text" class="form-control" id="Estado" placeholder="Sobrenome">
-          <label for="floatingPassword">Sobrenome</label>
-        </div>
-      </div>
-
-      <div class="campo d-flex">
-        <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="inputcep" placeholder="00000-000">
-          <label for="floatingInput">CEP</label>
-        </div>
-        <div class="form-floating">
-          <input type="text" class="form-control" id="comp" placeholder="Password">
-          <label for="floatingPassword">Complemento</label>
-        </div>
-      </div>
-
-      <div class="campo d-flex">
-        <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="Rua" placeholder="Rua">
-          <label for="floatingInput">Rua</label>
-        </div>
-        <div class="form-floating">
-          <input type="text" class="form-control" id="Bairro" placeholder="Bairro">
-          <label for="floatingPassword">Bairro</label>
-        </div>
-      </div>
-
-      <div class="campo d-flex">
-        <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="Cidade" placeholder="Cidade">
-          <label for="floatingInput">Cidade</label>
-        </div>
-        <div class="form-floating">
-          <input type="text" class="form-control" id="Estado" placeholder="Estado">
-          <label for="floatingPassword">Estado</label>
-        </div>
-      </div>
-
-      <div class="campo d-flex">
-        <div class="form-floating mb-3">
-          <input type="email" class="form-control" id="InputCadastro" placeholder="name@example.com">
-          <label for="floatingInput">E-mail</label>
-        </div>
-      </div>
-
-      <div class="campo d-flex">
-        <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Senha</label>
-        </div>
-        <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Confime sua senha</label>
-        </div>
-      </div>
-      
-      <button class="btnCadastro">Finalizar cadastro</button>
-      <p><a id="linkRecuperar" href="#">Esqueceu a senha?</a></p>
-
-      <div class=" teste form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-        <label class="form-check-label" for="flexCheckIndeterminate">
-          Aceito receber a newsletter em meu e-mail
-        </label>
-      </div>
-    </form>
-  </main>
-
-  <footer>
-    <p>© Todos os direitos reservados</p>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/32e33b27f8.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/32e33b27f8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  </body>
 </html>
