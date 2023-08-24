@@ -39,4 +39,4 @@ Além disso, o mesmo também deve conter:
 
 
 ## GitHub Pages;
-🔗 O projeto pode ser acessado no GitHub Pages: 
+🔗 O projeto pode ser acessado no GitHub Pages: [Plataforma Cursos](https://thainarapenha.github.io/PlataformaCursos/)
