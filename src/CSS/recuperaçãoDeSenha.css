@@ -3,30 +3,24 @@
   padding: 0;
 }
 
-.RecuperaçãoSenha {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: url("../img/circulos-banner.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 40%;
-  margin-top: 150px;
-}
-
-.RecuperaçãoSenha section {
+.RecuperacaoSenha {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  height: 80vh;
 }
 
-.RecuperaçãoSenha input {
-  text-align: center;
-  width: 100%;
+.RecuperacaoSenha section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.RecuperaçãoSenha button {
+.RecuperacaoSenha input {
+  margin: 2% 0;
+}
+
+.RecuperacaoSenha button {
   width: 100%;
 }
