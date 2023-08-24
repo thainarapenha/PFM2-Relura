@@ -1,16 +1,16 @@
-# Relura
-![t1](https://user-images.githubusercontent.com/43799802/174451244-3cdaca41-b1f6-496e-ac4c-d6904798ad50.PNG)
+# Plataforma cursos
 
 ## Status do Projeto;
-✅ Concluído e apresentado, porém será adicionado melhorias ao longo do meu estudo.
+✅ Melhorado e concluído.
+Atualmente esse projeto é um fork do repositório original. Foram feitas algumas melhorias após a entrega e finalização do curso.
 
 ## Sobre o projeto;
-Trata-se de uma plataforma de cursos/treinamentos focados na formação de desenvolvedores web. A proposta do mesmo veio com o objetivo de sanar problemas reais observados na turma referente as principais dificuldades da mesma com seu processo de aprendizagem.
+É uma plataforma de cursos/treinamentos focados na formação de desenvolvedores web. A proposta do mesmo veio com o objetivo de sanar problemas reais observados na turma referente as principais dificuldades da mesma com seu processo de aprendizagem.
 
-🔐 Autoria desse projeto pertence a Squad 7, Turma 19, Módulo II da Resilia Educação.
+Trata-se de um desafio de final que busca sintetizar os assuntos estudados dentro do módulo. O mesmo foi desenvolvido pela Squad 7 da turma 19 do módulo II da Resilia Educação.
 
 ## Desenvolvimento do projeto;
-🛠 O projeto foi pensando com o objetivo de sanar um problema e/ou dificuldade observada ou enfrentada pelos membros da squad ou da turma como um geral. Nosso planejamento contou com as seguintes etapas:
+🛠 Nosso planejamento contou com as seguintes etapas:
 
 - Brainstorming;
 - Golden circle;
@@ -20,11 +20,6 @@ Trata-se de uma plataforma de cursos/treinamentos focados na formação de desen
 - Definição e divisão de backlog;
 - Documentação de projeto;
 - Apresentação de projeto;
-
-Esse projeto foi apresentado dia 08/06/2022 e pode ser acessado clicando em [Slides de apresentação Relura](https://drive.google.com/file/d/1e_ynHIRq6qCHrW18ZqwY0mxeexA6KWFn/view?usp=sharing)
-
-## GitHub Pages;
-🔗 O projeto Relura pode ser acessado no GitHub Pages: [Relura](https://thainarapenha.github.io/PFM2-Relura/)
 
 ## Requisitos;
 ⚙ Todas as páginas devem utilizar o mesmo cabeçalho e rodapé. O projeto deve conter as seguintes telas: 
@@ -42,7 +37,6 @@ Além disso, o mesmo também deve conter:
 - Uso de repositório público no GitHub (com todos os integrantes do grupo como colaboradores);
 - Uso do GithubPage;
 
-## Conclusão;
-🗂 Até o momento, esse é o projeto mais intenso que trabalhei. Desenvolvimento muito massivo, problemas com ferramentas ao longo do caminho (que se converteu em aprendizagem), acréscimo de conhecimentos absorvidos de outros projetos anteriores em que trabalhei, além de muita troca com os membros da squad. Foi um projeto difícil, mas que me acrescentou bastante. Pretendo continuar adicionando melhorias a este projeto a medida que vou estudando.
 
-Desde já, agradeço a atenção e estou aberta a feedbacks :)
+## GitHub Pages;
+🔗 O projeto pode ser acessado no GitHub Pages: 
